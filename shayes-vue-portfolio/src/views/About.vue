@@ -4,7 +4,7 @@
 <template>
     <div class="intro-flex">
         <div class="image">
-        <img src="../assets/images/about/profile edit.png">
+        <img src="@/assets/images/about/profileedit.png">
         </div>
 
         <div class="about">

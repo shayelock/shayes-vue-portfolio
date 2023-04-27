@@ -23,8 +23,8 @@ import SupportIcon from '../components/icons/IconSupport.vue'
   <div class="project">
 <img src="../assets/images/homepage/hornbycover.png">
 <div class="project-text">
-<h2>Tourism NZ Filtering System</h2>
-<p class="paragraph">Student Project / Filtering system / HTML / CSS / JAVASCRIPT</p>
+<h2>Hornby Dental Website Redesign</h2>
+<p class="paragraph">Student Website Redesign / Figma / Photoshop</p>
 </div>
 <router-link to='/Hornbydental'><h3 class="button">View more</h3></router-link>
 </div>
@@ -32,19 +32,19 @@ import SupportIcon from '../components/icons/IconSupport.vue'
 
 
   <div class="project">
-<img src="../assets/images/homepage/backgroundedit.png">
+<img src="../assets/images/homepage/tourismcover.png">
 <div class="project-text">
-<h2>Hornby Dental Website </h2>
-<p>Student Website Redesign / Figma / Photoshop</p>
+<h2>Tourism NZ Filtering System</h2>
+<p>Student Project / Filtering system / HTML / CSS / JAVASCRIPT</p>
 </div>
-  <h3 class="button">View more </h3>
+  <router-link to='/Tourism'><h3 class="button">View more</h3></router-link>
 </div>
 
 
 
 
 <div class="project">
-<img src="../assets/images/homepage/gabriel-silverio-u3WmDyKGsrY-unsplash 1.png">
+<img src="../assets/images/homepage/hornbycover.png">
 <div class="project-text">
 <h2>Tourism Filtering System</h2>
 <p class="paragraph">Lorem ipsumlor sit amet consectetu dolor sit amet consectetu dolor!</p>
@@ -54,7 +54,7 @@ import SupportIcon from '../components/icons/IconSupport.vue'
 
 
   <div class="project">
-<img src="../assets/images/homepage/gabriel-silverio-u3WmDyKGsrY-unsplash 1.png">
+<img src="../assets/images/homepage/hornbycover.png">
 <div class="project-text">
 <h2>Hornby Dental Website Redesign</h2>
 <p>Lorem ipsumlor sit amet consectetu dolor sit amet consectetu dolor!</p>

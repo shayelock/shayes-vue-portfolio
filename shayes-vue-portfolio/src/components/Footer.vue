@@ -16,11 +16,11 @@ import { Icon } from '@iconify/vue';
 
     <div class="icons-flex">
         <a href="https://www.behance.net/shayelock-cullimore">
-     <img src="../assets/images/behance-square-outlined.svg">
+     <img src="../assets/images/footer/behance-logo-fill.svg">
     </a>
 
     <a href="https://www.linkedin.com/in/shaye-lock-cullimore-25657317b/">
-     <img src="../assets/images/linkedin-logo-fill.svg">
+     <img src="../assets/images/footer/linkedin-logo-fill.svg">
      </a>
 
     </div>
