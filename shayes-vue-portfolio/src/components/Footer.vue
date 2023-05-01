@@ -16,7 +16,7 @@ import { Icon } from '@iconify/vue';
 
     <div class="icons-flex">
         <a href="https://www.behance.net/shayelock-cullimore">
-     <img src="../assets/images/footer/behance-logo-fill.svg">
+     <img class="behance" src="../assets/images/footer/behance-logo-fill.svg">
     </a>
 
     <a href="https://www.linkedin.com/in/shaye-lock-cullimore-25657317b/">
@@ -38,7 +38,7 @@ import { Icon } from '@iconify/vue';
         background-color: rgb(16, 16, 16);
         color: white;
         padding: 2em;
-        gap: 15%;
+        gap: 5%;
       }
       .footer-flex h1 {
         font-size: 16px;
@@ -58,6 +58,7 @@ import { Icon } from '@iconify/vue';
       .socials {
      display: flex;
      flex-direction: column;
+     width: 10em;
       }
       .socials img {
         width: 2em;

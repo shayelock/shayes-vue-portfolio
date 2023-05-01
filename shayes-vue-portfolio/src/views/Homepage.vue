@@ -1,9 +1,5 @@
 <script setup>
-import DocumentationIcon from '../components/icons/IconDocumentation.vue'
-import ToolingIcon from '../components/icons/IconTooling.vue'
-import EcosystemIcon from '../components/icons/IconEcosystem.vue'
-import CommunityIcon from '../components/icons/IconCommunity.vue'
-import SupportIcon from '../components/icons/IconSupport.vue'
+
 </script>
 
 <template>
@@ -44,12 +40,12 @@ import SupportIcon from '../components/icons/IconSupport.vue'
 
 
 <div class="project">
-<img src="../assets/images/homepage/hornbycover.png">
+<img src="../assets/images/homepage/tradieappcover.jpg">
 <div class="project-text">
-<h2>Tourism Filtering System</h2>
-<p class="paragraph">Lorem ipsumlor sit amet consectetu dolor sit amet consectetu dolor!</p>
+<h2>Tradie Market Website and App</h2>
+<p class="paragraph">Student Group Project UI / UX / CSS / JAVASCRIPT / VUE </p>
 </div>
- <h3 class="button">View more</h3>
+<router-link to='/Tradie'><h3 class="button">View more</h3></router-link>
 </div>
 
 
@@ -78,6 +74,27 @@ import SupportIcon from '../components/icons/IconSupport.vue'
   background-attachment: fixed;
   background-size: 100% 100%;
 }
+
+h1 {
+ font-size: 36px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 2%;
+}
+h2 {
+    font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 2%;
+}
+h3 {
+    font-size: 20px;
+    margin: 2%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 2%;
+}
 .landing-section img {
   height: 4em;
 }
@@ -104,7 +121,7 @@ import SupportIcon from '../components/icons/IconSupport.vue'
 }
 .project-section img {
 height: 20em;
-width: 30em;
+width: 26em;
 
 
 }

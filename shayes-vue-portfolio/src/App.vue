@@ -7,15 +7,17 @@ import Footer from './components/Footer.vue'
 
 
   <main>
-    <Navbar />
+    <Navbar class="nav"/>
     <router-view></router-view>
     <Footer />
 
   </main>
 </template>
 
-<style scoped>
+<style>
 body {
   margin: 0 !important;
 }
+
+
 </style>

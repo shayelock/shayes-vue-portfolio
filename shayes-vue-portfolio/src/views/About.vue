@@ -4,7 +4,7 @@
 <template>
     <div class="intro-flex">
         <div class="image">
-        <img src="@/assets/images/about/profileedit.png">
+        <img src="../assets/images/about/profile edit.png">
         </div>
 
         <div class="about">
@@ -56,7 +56,28 @@
     
 </div>
 </template>
-<style>
+<style scoped>
+
+h1 {
+ font-size: 36px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 2%;
+}
+h2 {
+    font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 2%;
+}
+h3 {
+    font-size: 20px;
+    margin: 2%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 2%;
+}
 .intro-flex {
     display: flex;
     flex-direction: row;

@@ -51,12 +51,13 @@ import { Icon } from "@iconify/vue";
 
   .nav-flex {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     position: relative;
-     width: 100%;
      position: fixed;
+     top: 0;
+     right: 0;
+     left: 0;
      z-index: 1;
      gap: 5%;
     background-color: rgb(16, 16, 16);
@@ -183,7 +184,7 @@ import { Icon } from "@iconify/vue";
 @media (max-width: 320px) {
 .nav-flex h1 {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 1px;
   }
   .nav-flex svg {
     height: 1em;

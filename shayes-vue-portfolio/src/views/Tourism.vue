@@ -247,38 +247,69 @@ Another user mentioned that they would like to receive a message if nothing resu
 <div class="responsive-hifi">
     <h1>Responsive Hi-Fi</h1>
     <div class="responsive-flex">
+
+    <div class="r-flex">
+      
     <div class="responsive">
     <p>Landing</p>
-    <img src="../assets/images/tourism/r-hifi-1.png">
+    <img src="../assets/images/tourism/hifi-r-1.png">
     </div>
     <div class="responsive">
     <p>Filtering</p>
-    <img src="../assets/images/tourism/r-hi-fi.png">
+    <img src="../assets/images/tourism/hifi-r-2.png">
     </div>
+    </div>
+
+    <div class="r-flex">
+
     <div class="responsive">
     <p>Card Display</p>
-    <img src="../assets/images/tourism/r-hifi-3.png">
+    <img src="../assets/images/tourism/hifi-r-3.png">
     </div>
     <div class="responsive">
     <p>Filtering Error</p>
-    <img src="../assets/images/tourism/r-hifi-4.png">
-    </div>
-    <div class="responsive">
+    <img src="../assets/images/tourism/hifi-r-4.png">
+
+
     <p>Nav</p>
-    <img src="../assets/images/tourism/r-hifi-5.png">
+    <img src="../assets/images/tourism/hifi-r-5.png">
     </div>
+    </div>
+
     </div>
 </div>
-
+<div class="link">
+<router-link to='/'><p>View more projects</p></router-link>
+</div>
 </div>
 </template>
 
-<style>
+<style scoped>
 .body {
     padding-right: 8%;
-    padding-left: 10%;
-    padding-top: 8%;
+    padding-left: 8%;
+    padding-top: 4em;
+}
 
+h1 {
+ font-size: 36px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 2%;
+}
+h2 {
+    font-size: 26px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 2%;
+}
+h3 {
+    font-size: 20px;
+    margin: 2%;
+  font-family:Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 16px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 2%;
 }
 .logo img {
     height: 3em;
@@ -332,6 +363,7 @@ width: 20em;
     width: 25em;
 }
 .c-image img {
+    width: 30em;
     box-shadow: 1px 1px 5px  rgb(196, 196, 196);
 }
 .competitor-flex {
@@ -403,13 +435,29 @@ justify-content: center;
 .responsive-flex{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    padding: 3%;
+    gap: 2em;
 }
 .responsive img {
-    width: 5em;
+    width: 10em;
+    box-shadow: 1px 1px 5px  rgb(196, 196, 196);
 }
 .responsive-hifi h1 {
     background-color: #f5f5f5;
     padding: 1%;
+}
+.r-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: center;
+}
+
+.link p {
+    text-decoration: underline;
+    color: #568f47;
+    text-align: center;
 }
 @media (max-width: 768px) {
     .image-flex{
@@ -432,5 +480,70 @@ flex-direction: column;
         flex-direction: column;
         align-items: center;
     }
+    .responsive-flex {
+        flex-direction: column;
+    }
+    .c-image img {
+        width: 25em;
+    }
+    .c-text {
+        padding-left: 8em;
+    }
+    .emotions {
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;
+    }
+    .tourism img {
+        height: 20em;
+    }
+}
+
+@media (max-width: 425px) {
+    .c-image img {
+        width: 15em;
+    }
+    .c-text p {
+        font-size: 12px;
+        padding-left: 2em;
+    }
+    .c-text h2 {
+        padding-left: 1em;
+    }
+.hifi-card img {
+    width: 14em;
+}
+.responsive img {
+    width: 6em;
+}
+.lowfi img {
+    height: 17em;
+}
+.c-image img {
+    width: 12em;
+
+}
+.tourism img {
+    height: 13em;
+}
+.sne {
+flex-direction: column;
+width: 20em;
+    }
+.persona-flex {
+flex-direction: column;
+    }
+    .tourism img {
+        height: 10em;
+        padding-top: 3em;
+    
+    }
+    .logo img {
+        height: 2em;
+    }
+.sne {
+    height: q5em;
+    width: 14em;
+}
 }
 </style>

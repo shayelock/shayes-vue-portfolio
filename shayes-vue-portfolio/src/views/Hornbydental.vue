@@ -135,7 +135,7 @@
 </div>
 </template>
 
-<style>
+<style scoped>
 .body {
     padding-right: 5%;
     padding-left: 5%;
@@ -269,12 +269,7 @@ height: 25em;
 .branding img {
 width: 30em
 }
-.strengths {
-    width: 20em;
-}
-.weaknesses {
-    width: 20em;
-}
+
 .sitemap {
     text-align: center;
 }
@@ -288,18 +283,44 @@ width: 30em
   text-align: center;
 }
 .style-tile img {
-    width: 60em;
+    width: 45em;
 }
 .before-after {
     text-align: center;
 }
 .before-after img {
-    width: 60em;
+    width: 45em;
 }
 .before-after p {
     text-decoration: underline;
    color:  #18628d;
 }
+@media (max-width: 1024px) {
+.competitor-flex {
+flex-direction: column;
+align-items: center;
+gap: 0;
+}
+.snw-flex {
+    flex-direction: column;
+}
+.personas {
+    flex-direction: column;
+}
+.sitemap img {
+    height: 14em;
+}
+.wireframes img {
+    height: 14em;
+}
+.branding img {
+width: 18em
+}
+.hornby-landing {
+    padding-top: 2em;
+}
+}
+
 @media (max-width: 768px) {
 
     h1 {
@@ -315,11 +336,6 @@ h3 {
 p {
     font-size: 14px;
 }
-.landing-flex {
-    flex-direction: column;
-    align-items: center;
-    padding-top: 1%;
-}
 
 .competitor-flex {
     flex-direction: column;
@@ -328,7 +344,6 @@ p {
 .snw-flex {
     flex-direction: column;
     height: auto;
-    width: 16em;
 }
 .competitor-image {
 text-align: center;
@@ -337,9 +352,7 @@ text-align: center;
     height: 15em;
     width: 20em;
 }
-.text {
-    width: 16em;
-}
+
 .text h1 {
     margin: 0;
 }
@@ -358,8 +371,19 @@ height: 8em;
 .branding-img-flex {
     flex-direction: column;
 }
-.branding img {
-width: 20em
+.style-tile img {
+    width: 20em;
+}
+.before-after img {
+    width: 10em;
+}
+  }
+
+  @media (max-width: 425px) {
+    .landing-flex {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1%;
 }
   }
   @media (max-width: 320px) {
@@ -385,6 +409,9 @@ width: 10em
 }
 .personas {
     align-items: center;
+}
+.style-tile img {
+    width: 10em;
 }
   }
 
