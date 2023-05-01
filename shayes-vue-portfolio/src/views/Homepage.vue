@@ -1,20 +1,46 @@
 <script setup>
 
+
 </script>
 
 <template>
+  <div class="landing-section">
+    <h1>SHAYE LOCK-CULLIMORE</h1>
+    <h2>
+      Welcome to my portfolio website! As a UX/UI designer, I'm passionate about
+      creating user-centered experiences that are not only functional but also
+      visually appealing.
+    </h2>
+    <h3>Check out my work</h3>
+    <img src="../assets/images/homepage/arrow.svg" />
+  </div>
 
-<div class="landing-section">
-  <h1>SHAYE LOCK-CULLIMORE</h1>
-  <h2>Welcome to my portfolio website! As a UX/UI designer, I'm passionate about creating user-centered experiences that are not only functional but also visually appealing.</h2>
- <h3>Check out my work</h3>
-<img src="../assets/images/homepage/arrow.svg">
-</div>
+  <div class="project-section">
+    <h1>PROJECTS</h1>
 
-<div class="project-section">
-  <h1>PROJECTS</h1>
+    <div class="project-flex">
+      <div class="project">
+        <img src="../assets/images/homepage/hornbycover.png" />
+        <div class="project-text">
+          <h2>Tourism NZ Filtering System</h2>
+          <p class="paragraph">
+            Student Project / Filtering system / HTML / CSS / JAVASCRIPT
+          </p>
+        </div>
+        <router-link to="/Hornbydental"
+          ><h3 class="button">View more</h3></router-link
+        >
+      </div>
 
- <div class="project-flex">
+      <div class="project">
+        <img src="../assets/images/homepage/background.png" />
+        <div class="project-text">
+          <h2>Hornby Dental Website</h2>
+          <p>Student Website Redesign / Figma / Photoshop</p>
+        </div>
+        <h3 class="button">View more</h3>
+      </div>
+
 
   <div class="project">
 <img src="../assets/images/homepage/hornbycover.png">
@@ -61,16 +87,44 @@
 
  </div>
 </div>
+=======
+      <div class="project">
+        <img
+          src="../assets/images/gabriel-silverio-u3WmDyKGsrY-unsplash1.png"
+        />
+        <div class="project-text">
+          <h2>Tourism Filtering System</h2>
+          <p class="paragraph">
+            Lorem ipsumlor sit amet consectetu dolor sit amet consectetu dolor!
+          </p>
+        </div>
+        <h3 class="button">View more</h3>
+      </div>
+>>>>>>> 16ec38ec8cc66955acff29da7aacc000ff2f31f1
+
+      <div class="project">
+        <img
+          src="../assets/images/gabriel-silverio-u3WmDyKGsrY-unsplash1.png"
+        />
+        <div class="project-text">
+          <h2>Hornby Dental Website Redesign</h2>
+          <p>
+            Lorem ipsumlor sit amet consectetu dolor sit amet consectetu dolor!
+          </p>
+        </div>
+        <h3 class="button">View more</h3>
+      </div>
+
 
 </template>
 
 <style scoped>
 .landing-section {
- color: white;
+  color: white;
   text-align: center;
   padding: 5%;
- background-image: url(../assets/images/homepage/background.png);
- background-repeat: no-repeat;
+  background-image: url(../assets/images/homepage/background.png);
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
@@ -99,7 +153,7 @@ p {
   height: 4em;
 }
 
-.icon  {
+.icon {
   height: 3em;
   color: white;
 }
@@ -122,8 +176,6 @@ p {
 .project-section img {
 height: 20em;
 width: 26em;
-
-
 }
 .project-flex {
   display: flex;
@@ -141,25 +193,24 @@ width: 26em;
 .project-text {
   padding: 1%;
 }
-.project-section{
+.project-section {
   text-align: left;
   margin-left: 8%;
   margin-right: 8%;
   margin-bottom: 3%;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #2c3e50;
   background-color: rgb(240, 242, 243);
 }
 .project-section h1 {
   padding-top: 2%;
- text-align: center;
+  text-align: center;
   font-weight: bold;
   font-size: 46px;
-
 }
 .project {
   padding: 2%;
-object-fit: contain;
+  object-fit: contain;
 }
 .button {
   background-color: #2c3e50;
@@ -171,17 +222,16 @@ object-fit: contain;
   display: inline-block;
   font-weight: lighter;
   font-size: 16px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 1%;
   margin-top: 0%;
   margin-bottom: 0%;
 }
 
-
 @media (max-width: 600px) {
   .project-section img {
     height: 18em;
-   width:18em;
+    width: 18em;
   }
   .project {
     height: 0%;
@@ -198,6 +248,5 @@ object-fit: contain;
   .project-section h1 {
     font-size: 36px;
   }
-  }
-
+}
 </style>
