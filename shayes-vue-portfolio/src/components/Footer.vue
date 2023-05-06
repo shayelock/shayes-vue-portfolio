@@ -21,15 +21,7 @@ import { Icon } from "@iconify/vue";
 
     <a href="https://www.linkedin.com/in/shaye-lock-cullimore-25657317b/">
      <img src="../assets/images/footer/linkedin-logo-fill.svg">
-
-
-          <img src="../assets/images/nav/behance-square-outlined.svg" />
-        </a>
-
-
-        <a href="https://www.linkedin.com/in/shaye-lock-cullimore-25657317b/">
-          <img src="../assets/images/nav/linkedin-logo-fill.svg" />
-        </a>
+    </a>
       </div>
     </div>
   </div>

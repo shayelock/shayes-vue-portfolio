@@ -4,6 +4,7 @@
 </script>
 
 <template>
+  
   <div class="landing-section">
     <h1>SHAYE LOCK-CULLIMORE</h1>
     <h2>
@@ -19,27 +20,6 @@
     <h1>PROJECTS</h1>
 
     <div class="project-flex">
-      <div class="project">
-        <img src="../assets/images/homepage/hornbycover.png" />
-        <div class="project-text">
-          <h2>Tourism NZ Filtering System</h2>
-          <p class="paragraph">
-            Student Project / Filtering system / HTML / CSS / JAVASCRIPT
-          </p>
-        </div>
-        <router-link to="/Hornbydental"
-          ><h3 class="button">View more</h3></router-link
-        >
-      </div>
-
-      <div class="project">
-        <img src="../assets/images/homepage/background.png" />
-        <div class="project-text">
-          <h2>Hornby Dental Website</h2>
-          <p>Student Website Redesign / Figma / Photoshop</p>
-        </div>
-        <h3 class="button">View more</h3>
-      </div>
 
 
   <div class="project">
@@ -76,44 +56,17 @@
 
 
   <div class="project">
-<img src="../assets/images/homepage/hornbycover.png">
+<img src="../assets/images/homepage/covereco.png">
 <div class="project-text">
-<h2>Hornby Dental Website Redesign</h2>
-<p>Lorem ipsumlor sit amet consectetu dolor sit amet consectetu dolor!</p>
+<h2>Eco Website Redesign</h2>
+<p>Student Project / UI / UX / CSS / HTML / JAVASCRIPT</p>
 </div>
-  <h3 class="button">View more </h3>
+<router-link to='/Eco'><h3 class="button">View more</h3></router-link>
 
 </div>
 
  </div>
 </div>
-=======
-      <div class="project">
-        <img
-          src="../assets/images/gabriel-silverio-u3WmDyKGsrY-unsplash1.png"
-        />
-        <div class="project-text">
-          <h2>Tourism Filtering System</h2>
-          <p class="paragraph">
-            Lorem ipsumlor sit amet consectetu dolor sit amet consectetu dolor!
-          </p>
-        </div>
-        <h3 class="button">View more</h3>
-      </div>
->>>>>>> 16ec38ec8cc66955acff29da7aacc000ff2f31f1
-
-      <div class="project">
-        <img
-          src="../assets/images/gabriel-silverio-u3WmDyKGsrY-unsplash1.png"
-        />
-        <div class="project-text">
-          <h2>Hornby Dental Website Redesign</h2>
-          <p>
-            Lorem ipsumlor sit amet consectetu dolor sit amet consectetu dolor!
-          </p>
-        </div>
-        <h3 class="button">View more</h3>
-      </div>
 
 
 </template>
@@ -210,7 +163,7 @@ width: 26em;
 }
 .project {
   padding: 2%;
-  object-fit: contain;
+  width: 26em;
 }
 .button {
   background-color: #2c3e50;

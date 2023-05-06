@@ -4,6 +4,7 @@ import Homepage from '../views/Homepage.vue'
 import Hornbydental from '../views/Hornbydental.vue'
 import Tourism from '../views/Tourism.vue'
 import Tradie from '../views/Tradie.vue'
+import Eco from '../views/Eco.vue'
 const routes = [
     {
         path: '/about',
@@ -29,6 +30,11 @@ const routes = [
         path:'/Tradie',
         name:'Tradie',
         component: Tradie
+    },
+    {
+        path:'/Eco',
+        name:'Eco',
+        component: Eco
     }
 ]
 

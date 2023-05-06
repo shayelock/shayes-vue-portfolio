@@ -7,14 +7,18 @@
 
         <div class="landing-flex">
          <div>
-        <img src="../assets/images/hornbydental/oldwebsite.png">
+        <img src="../assets/images/hornbydental/hornbydental logo.png">
        </div>
 
        <div class="text">
         <h1> Website Redesign Case Study</h1>
-<h2> About the project:</h2>
-<p>Our team has taken up the task of redesigning the website for Honrby Dental Centre. Our main aim is to create a user-friendly and visually appealing website that is easy to navigate and provides users with the information they need to make an informed decision about their dental care. Our redesign will focus on enhancing the overall user experience to help navigation of the website and to update the branding of the website. </p>
+<h2> Brief:</h2>
+<p>Hornby Dental Center is looking to re-design their website and update the overall branding  and to add a booking system to the website</p>
+<h2>Pain Points:</h2>
+<p>The current website is hard to navigate and requires the user to leave the website to create a booking. The website branding is outdated for the target audience it is looking to reach.</p>
+
 <h2>Project Goals:</h2>
+<p>Our team has taken up the task of redesigning the website for Honrby Dental Centre. Our main aim is to create a user-friendly and visually appealing website that is easy to navigate and provides users with the information they need to make an informed decision about their dental care. Our redesign will focus on enhancing the overall user experience to help navigation of the website and to update the branding of the website. </p>
 <h3>- Improve usability of the website</h3>
 <h3>- Update the branding of the website</h3>
 <h3>- Create a booking system</h3>
@@ -70,11 +74,12 @@
 </div>
 
 <div class="personas">
+    <h1>Persona's</h1>
 
     <div class="persona-section">
-    <h1>Persona's</h1>
+        <div>
     <img class="jonah" src="../assets/images/hornbydental/Jonah.png">
-    </div>
+      </div>
 
     <div class="persona-text">
         <h3>Name: Issac & Jonah</h3>
@@ -87,7 +92,7 @@
      <h3>Motivation</h3>
      <p>Family, Lifestyle, Accessibility</p>
     </div>
-
+</div>
 </div>
 
 <div class="sitemap">
@@ -125,13 +130,29 @@
 </div>
 </div>
 
-<div class="before-after">
+<div class="before-after-section">
+<h1>User Testing Changes</h1>
+<div class="hornby-nav">
+<img src="../assets/images/hornbydental/Navigation Bar 1.png">
+<img src="../assets/images/hornbydental/Navigation.jpg">
+<img src="../assets/images/hornbydental/Footer.jpg">
+<img src="../assets/images/hornbydental/Footer 2.png">
 
+
+</div>
 <h1> Hi-Fi Wireframes</h1>
+<div class="before-after">
+<div>
 <img src="../assets/images/hornbydental/beforeafter1.png">
-<img src="../assets/images/hornbydental/beforeafter2.png">
+</div>
 
-<router-link to='/'><p>View more projects</p></router-link>
+<div>
+<img src="../assets/images/hornbydental/beforeafter2.png">
+</div>
+
+
+<router-link to='/'><h2>View more projects</h2></router-link>
+</div>
 </div>
 </template>
 
@@ -165,15 +186,13 @@ p {
   margin: 2%;
 }
 .hornby-landing img {
-    height: 25em;
-    box-shadow: 1px 1px 5px  rgb(196, 196, 196);
+    width: 25em;
+    padding-left: 5%;
 }
-.landing-flex{
-    display: flex;
-    flex-direction: row;
-}
+
 .text {
-  padding: 3%;
+  padding-right: 3%;
+  padding-left: 3%;
 }
 .competitor-flex img {
     height: 15em;
@@ -199,13 +218,19 @@ p {
     flex-direction: row;
     gap: 1%;
 }
+.strengths {
+    width: 25em;
+}
+.weaknesses {
+    width: 25em;
+}
+
 .persona-section img {
     height: 20em;
 }
-.personas {
+.persona-section {
     display: flex;
     flex-direction: row;
-    padding-top: 2%;
     padding-bottom: 2%;
 }
 .persona-text h3 {
@@ -217,7 +242,9 @@ p {
     background-color: #18628d;
     padding: 1%;
     color: white;
-    margin: 0;
+margin-top: 1em;
+margin-right: 0;
+margin-left: 0;
 }
 .persona-text {
 padding-top: 3%;
@@ -286,27 +313,35 @@ width: 30em
     width: 45em;
 }
 .before-after {
+    display: flex;
+    flex-direction: column;
     text-align: center;
 }
 .before-after img {
     width: 45em;
 }
-.before-after p {
+.before-after h2 {
     text-decoration: underline;
-   color:  #18628d;
+   color:  black;
+}
+.before-after-section {
+text-align: center;
+}
+.hornby-nav img {
+    width: 35em;
+}
+.hornby-nav {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    gap: 1em;
 }
 @media (max-width: 1024px) {
-.competitor-flex {
-flex-direction: column;
-align-items: center;
-gap: 0;
-}
+
 .snw-flex {
     flex-direction: column;
 }
-.personas {
-    flex-direction: column;
-}
+
 .sitemap img {
     height: 14em;
 }
@@ -317,7 +352,7 @@ gap: 0;
 width: 18em
 }
 .hornby-landing {
-    padding-top: 2em;
+    padding-top: 7em;
 }
 }
 
@@ -337,10 +372,6 @@ p {
     font-size: 14px;
 }
 
-.competitor-flex {
-    flex-direction: column;
-    align-items: center;
-}
 .snw-flex {
     flex-direction: column;
     height: auto;
@@ -353,10 +384,11 @@ text-align: center;
     width: 20em;
 }
 
+
 .text h1 {
     margin: 0;
 }
-.personas {
+.persona-section {
     flex-direction: column;
 }
 .sitemap img {
@@ -375,7 +407,21 @@ height: 8em;
     width: 20em;
 }
 .before-after img {
-    width: 10em;
+    width: 20em;
+}
+.personas {
+    flex-direction: column;
+}
+.competitor-flex {
+flex-direction: column;
+align-items: center;
+gap: 0;
+}
+.strengths {
+    width: 20em;
+}
+.weaknesses {
+    width: 20em;
 }
   }
 
@@ -384,6 +430,13 @@ height: 8em;
     flex-direction: column;
     align-items: center;
     padding-top: 1%;
+}
+.hornby-landing {
+    padding-top: 5em;
+}
+.hornby-landing img {
+    width: 15em;
+    padding: 5%;
 }
   }
   @media (max-width: 320px) {
@@ -400,10 +453,7 @@ width: 10em
     height: 10em;
     width: 15em;
 }
-.hornby-landing img {
-    height: 20em;
 
-}
 .persona-section img {
     height: 15em;
 }

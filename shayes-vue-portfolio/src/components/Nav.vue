@@ -199,7 +199,7 @@ body {
 @media (max-width: 320px) {
   .nav-flex h1 {
     font-weight: bold;
-    font-size: 1px;
+    font-size: 12px;
   }
   .nav-flex svg {
     height: 1em;

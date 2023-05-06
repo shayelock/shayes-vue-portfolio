@@ -97,9 +97,11 @@
 
          <div class="competitor-analysis">
           <h1>Competitor Analysis</h1>
+
+          <div class="website">
+          <h2>Trivago</h2>
          <div class="competitor-flex">
           <div class="c-image">
-           <h2>Trivago</h2>
            <img src="../assets/images/tourism/trivago.png">
           </div>
           <div class="c-text">
@@ -117,9 +119,10 @@
           </div>
          </div>
 
+            <div class="website">
+            <h2>Bookabach</h2>
           <div class="competitor-flex">
           <div class="c-image">
-            <h2>Bookabach</h2>
             <img src="../assets/images/tourism/booking.png">
           </div>
           <div class="c-text">
@@ -135,6 +138,8 @@
 <h2>Weaknesses</h2>
 <p>- No colour used in sections </p>
           </div>
+         </div>
+         </div>
          </div>
          </div>
   
@@ -367,13 +372,21 @@ width: 20em;
     box-shadow: 1px 1px 5px  rgb(196, 196, 196);
 }
 .competitor-flex {
+    display: flex;
+    flex-direction: row;
     margin: 3%;
-    padding: 3%;
     gap: 2em;
     background-color: #f5f5f5;
+    padding: 3%;
 }
+
 .competitor-analysis h1 {
 margin-bottom: 0%;
+}
+.competitor-analysis h2 {
+    margin-bottom: 0%;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 .info-flex {
     display: flex;
@@ -486,9 +499,7 @@ flex-direction: column;
     .c-image img {
         width: 25em;
     }
-    .c-text {
-        padding-left: 8em;
-    }
+
     .emotions {
         flex-direction: column;
         gap: 0.5em;
@@ -500,16 +511,11 @@ flex-direction: column;
 }
 
 @media (max-width: 425px) {
-    .c-image img {
-        width: 15em;
-    }
+ 
     .c-text p {
         font-size: 12px;
-        padding-left: 2em;
     }
-    .c-text h2 {
-        padding-left: 1em;
-    }
+
 .hifi-card img {
     width: 14em;
 }
