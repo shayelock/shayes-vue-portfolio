@@ -7,7 +7,7 @@
 
     <div class="logo">
     <img src="../assets/images/tourism/tourismlogo.png">
-     <h1>Brief:</h1>
+     <h1>Brief</h1>
      <p>Tourism New Zealand works with the tourism industry to positively promote New Zealand internationally. The new campaign is aiming to atrract visitors looking to stay for a short periods and allowing them to book accommodation directly from the website. To achieve this I created a booking system that is part of the current Tourism New Zealand Website/Branding but also is clearly part of a seperate accommodation booking system.
      </p>
     </div>
@@ -15,9 +15,9 @@
      <div class="client-goals">
         <h1>Client Goals</h1>
         <p>New Zealand Tourism wanted to increase tourists chances of staying more nights when visiting locations in New Zealand. To do this they want to show case accommodation in the areas tourist are looking to visit on their website. The booking system will have a filtering system based on nights and how many guest, while displaying location, price and if there is food availibility at the accommodation. The overall goals for the campaign is to create awareness of local places in which supports the local economy and improve the usability of the website.</p>
-      <h3>- Awareness</h3>
-      <h3>- Economy</h3>
-      <h3>- Usability</h3>
+      <h3>Awareness</h3>
+      <h3>Economy</h3>
+      <h3>Usability</h3>
     </div>
 
     <div class="persona">
@@ -70,19 +70,19 @@
             <div class="feelings">
                 <h2>Consider</h2>
                 <br>
-<p>- Julie looks for activities and locations when she is looking through the website</p>
-<p>- She has now found a place she wants to visit and is now looking for accommodation nearby.</p>
-<p>- She is now looking on the website for accommodation</p>
-<p>- She also wants to compare prices, cost and  restaurants onsite</p>
+<p>Julie looks for activities and locations when she is looking through the website</p>
+<p>She has now found a place she wants to visit and is now looking for accommodation nearby.</p>
+<p>She is now looking on the website for accommodation</p>
+<p>She also wants to compare prices, cost and  restaurants onsite</p>
  
             </div>
 
             <div class="feelings">
                 <h2>Book</h2>
                 <br>
-<p>- Julie adds her requirements in the filters </p>
-<p>- She finds accommodation that suits her needs </p>
-<p>- She books the accommodation</p>
+<p>Julie adds her requirements in the filters </p>
+<p>She finds accommodation that suits her needs </p>
+<p>She books the accommodation</p>
             </div>
 
             <div class="feelings">
@@ -108,14 +108,14 @@
             
 
 <h2>Strengths</h2> 
-<p>- Use of colour blocks and highlights</p>
-<p>- Sectioning of accommodation</p>
-<p>- Use of images</p>
-<p>- Compacted information sections</p>
+<p>Use of colour blocks and highlights</p>
+<p>Sectioning of accommodation</p>
+<p>Use of images</p>
+<p>Compacted information sections</p>
 
 <h2>Weaknesses</h2>
-<p>- Only showing hotels</p>
-<p>- Not showing NZ beauty in the process </p>
+<p>Only showing hotels</p>
+<p>Not showing NZ beauty in the process </p>
           </div>
          </div>
 
@@ -130,13 +130,13 @@
             
 
 <h2>Strengths </h2>
-<p>- Images sectioning</p>
-<p>- Sectioning of information</p>
-<p>- Landing image showing of NZ’s beauty</p>
-<p>- Easy navigation</p>
+<p>Images sectioning</p>
+<p>Sectioning of information</p>
+<p>Landing image showing of NZ’s beauty</p>
+<p>Easy navigation</p>
 
 <h2>Weaknesses</h2>
-<p>- No colour used in sections </p>
+<p>No colour used in sections </p>
           </div>
          </div>
          </div>
@@ -153,38 +153,38 @@
     <img class="arrow-right" src="../assets/images/tourism/arrow.png">
     <img class="arrow-down" src="../assets/images/tourism/downarrow.png">
     <h3>Accomodation landing page</h3>
-    <p>- Landing image</p>
-    <p>- Stay Section</p>
-    <p>- Accommodation search</p>
-    <p>- Number of stays</p>
-    <p>- Location</p>
-    <p>- Number of guest</p>
-    <p>- Card sections </p>
+    <p>Landing image</p>
+    <p>Stay Section</p>
+    <p>Accommodation search</p>
+    <p>Number of stays</p>
+    <p>Location</p>
+    <p>Number of guest</p>
+    <p>Card sections </p>
 
 </div>
 <div class="info">
     <img class="arrow-right" src="../assets/images/tourism/arrow.png">
     <img class="arrow-down" src="../assets/images/tourism/downarrow.png">
     <h3>Selected Accomodation</h3>
-<p>- Images in gallery</p>
-<p>- Name/location/</p>
-<p>   price/rates/about</p>
-<p>- Booking confirmation</p>
-<p>- Booking button</p>
-<p>- Food options</p>
+<p>Images in gallery</p>
+<p>Name/location/</p>
+<p>price/rates/about</p>
+<p>Booking confirmation</p>
+<p>Booking button</p>
+<p>Food options</p>
 </div>
 
 <div class="info">
     <img class="arrow-right" src="../assets/images/tourism/arrow.png">
     <img class="arrow-down" src="../assets/images/tourism/downarrow.png">
     <h3>Booking Process</h3>
-    <p>- Overview of booking</p>
+    <p>Overview of booking</p>
 </div>
 <div class="info">
     <img class="arrow-right" src="../assets/images/tourism/arrow.png">
     <img class="arrow-down" src="../assets/images/tourism/downarrow.png">
     <h3>Confirmation</h3>
-    <p>-Confirmation of booking</p>
+    <p>Confirmation of booking</p>
 </div>
 
 </div>
@@ -467,11 +467,16 @@ justify-content: center;
     justify-content: center;
 }
 
-.link p {
-    text-decoration: underline;
-    color: #568f47;
+
+.link-p {
+    text-decoration: none;
+    color: white;
+    background-color: black;
     text-align: center;
+    width: 10em;
+    padding: 1%;
 }
+
 @media (max-width: 768px) {
     .image-flex{
 flex-direction: column;
@@ -507,6 +512,10 @@ flex-direction: column;
     }
     .tourism img {
         height: 20em;
+    }
+    .competitor-flex {
+        flex-direction: column;
+        gap: 0;
     }
 }
 
