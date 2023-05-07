@@ -47,7 +47,7 @@
             <div class="sne">
 
                 <div class="scenario">
-            <h2>Scenario:</h2>
+            <h2>Scenario</h2>
             <p>Julie is looking to travel to New Zealand in the school holidays and is looking at the New Zealand Tourism site to get information and ideas on where to travel and stay.</p>
             </div>
 
@@ -63,16 +63,20 @@
             <div class="feelings">
                 <h2>Discovers</h2>
                 <br>
-                <p>- Julie researches tourism New Zealand</p>
-                <p>- She finds the tourism New Zealand website</p>
+                <p>Julie researches tourism New Zealand</p>
+                <br>
+                <p>She finds the tourism New Zealand website</p>
             </div>
 
             <div class="feelings">
                 <h2>Consider</h2>
                 <br>
 <p>Julie looks for activities and locations when she is looking through the website</p>
+<br>
 <p>She has now found a place she wants to visit and is now looking for accommodation nearby.</p>
+<br>
 <p>She is now looking on the website for accommodation</p>
+<br>
 <p>She also wants to compare prices, cost and  restaurants onsite</p>
  
             </div>
@@ -81,15 +85,18 @@
                 <h2>Book</h2>
                 <br>
 <p>Julie adds her requirements in the filters </p>
+<br>
 <p>She finds accommodation that suits her needs </p>
-<p>She books the accommodation</p>
+<br>
+<p>She books accommodation</p>
             </div>
 
             <div class="feelings">
                 <h2>Confirmation</h2>
                 <br>
-<p>- She receives booking confirmation</p>
-<p>- Takes her back to the homepage to brows for more</p>
+<p>She receives booking confirmation</p>
+<br>
+<p>Takes her back to the homepage to brows for more</p>
 
 
             </div>
@@ -143,7 +150,7 @@
          </div>
          </div>
   
-<div class="Info-architecture">
+<div class="info-architecture">
 <h1>Information Architecture</h1>
 <div class="info-flex">
 <div class="info">
@@ -213,16 +220,18 @@
 </div>
 
 <div class="lowfi-testing">
-    <h1>Low-fi User Testing</h1>
+    <h1>User Testing</h1>
     <p>Based on the user questions that were conducted in the interviews, the overall user flow worked well and was mentioned 
 that having the location/food options once you click on the card display of the accommodation. The visual hierarchy on the accommodation
-display page they found a bit confusing with two text sections, if simplified into one it would work better for importance of information.
+display page they found hard to navigate with two text sections, if simplified into one it would work better for importance of information.
 Another user mentioned that they would like to receive a message if nothing results from their input into the search.  </p>
 </div>
 
 <div class="style-guide">
     <h1> Style Guide</h1>
+    <div class="style-img">
     <img  src="../assets/images/tourism/styleguide.png">
+    </div>
 </div>
 
 <div class="hifi">
@@ -283,7 +292,13 @@ Another user mentioned that they would like to receive a message if nothing resu
 
     </div>
 </div>
+
 <div class="link">
+    <h2>Link to project</h2>
+
+    <a href="https://shayelock.github.io/tourism-nz/">https://shayelock.github.io/tourism-nz/</a>
+
+
 <router-link to='/'><p>View more projects</p></router-link>
 </div>
 </div>
@@ -308,7 +323,11 @@ h2 {
 }
 h3 {
     font-size: 20px;
-    margin: 2%;
+    margin-left: 2%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    
   font-family:Arial, Helvetica, sans-serif;
 }
 p {
@@ -362,7 +381,7 @@ padding: 3%;
 .feelings {
     padding: 2%;
     background-color: #f5f5f5;
-width: 20em;
+width: 22em;
 }
 .c-text {
     width: 25em;
@@ -371,10 +390,13 @@ width: 20em;
     width: 30em;
     box-shadow: 1px 1px 5px  rgb(196, 196, 196);
 }
+.style-img {
+    text-align: center;
+}
 .competitor-flex {
     display: flex;
     flex-direction: row;
-    margin: 3%;
+    margin: 1%;
     gap: 2em;
     background-color: #f5f5f5;
     padding: 3%;
@@ -391,9 +413,11 @@ margin-bottom: 0%;
 .info-flex {
     display: flex;
     flex-direction: row;
-    padding: 3%;
     gap: 2em;
 
+}
+.low-fi h1 {
+    margin: 1%;
 }
 .info {
 background-color: #f5f5f5;
@@ -427,7 +451,11 @@ justify-content: center;
     padding: 1%;
 }
 .style-guide img {
-    width: 100%;
+    width: 50em;
+    align-content: center;
+}
+.style-guide {
+    align-items: center;
 }
 .hifi-card {
     padding: 3%;
@@ -437,12 +465,13 @@ justify-content: center;
     padding: 1%;
 }
 .hifi-card img {
-    width: 30em;
+    width: 25em;
     box-shadow: 1px 1px 5px  rgb(196, 196, 196);
 }
 .hifi-flex {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 1em;
 }
 .responsive-flex{
@@ -467,14 +496,48 @@ justify-content: center;
     justify-content: center;
 }
 
-
-.link-p {
-    text-decoration: none;
-    color: white;
-    background-color: black;
+.link {
     text-align: center;
-    width: 10em;
-    padding: 1%;
+    padding: 3%;
+}
+.link p {
+  background-color: #2c3e50;
+  border: none;
+  text-align: center;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.user-journey h1 {
+    margin: 1%;
+}
+.competitor-analysis h2 {
+    margin: 1%;
+}
+.competitor-analysis h1 {
+    margin:1%;
+}
+.persona h1 {
+    margin: 0%;
+}
+a {
+    text-decoration: none;
+}
+.info-architecture h1 {
+    margin: 1%;
+    padding-top: 3%;
+   padding-bottom: 3%;
+}
+.hifi-card p {
+    margin: 0%;
 }
 
 @media (max-width: 768px) {
@@ -483,6 +546,7 @@ flex-direction: column;
     }
     .info-flex {
         flex-direction: column;
+        gap: 0.5em;
     }
     .arrow-right {
         display: none;
@@ -516,6 +580,24 @@ flex-direction: column;
     .competitor-flex {
         flex-direction: column;
         gap: 0;
+    }
+    .hifi-flex {
+    flex-direction: column;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    .style-img img {
+        width: 25em;
+    }
+    .hifi-card p {
+        margin: 0;
     }
 }
 
@@ -557,8 +639,16 @@ flex-direction: column;
         height: 2em;
     }
 .sne {
-    height: q5em;
     width: 14em;
 }
+.style-img img {
+        width: 15em;
+    }
+    .feelings {
+        width: 16em;
+    }
+    h1 {
+        font-size: 20px;
+    }
 }
 </style>

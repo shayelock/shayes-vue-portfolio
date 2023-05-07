@@ -136,9 +136,11 @@ made to where the display of the 'how to tradies' display is placed on the tradi
     <div class="h1-banner">
     <h1>Responsive</h1>
     </div>
-    <img src="../assets/images/tradieapp/tradie-hifi.jpg">
+    <img src="../assets/images/tradieapp/tradieresponsive.jpg">
 
-    <router-link to='/'><h2>View more projects</h2></router-link>
+    <div class="link">
+<router-link to='/'><p>View more projects</p></router-link>
+</div>
   </div>
 </div>
 
@@ -191,6 +193,8 @@ margin-bottom: 0;
     align-items: center;
     margin-right: 3%;
     margin-left: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
 
 }
 .target-flex {
@@ -313,7 +317,25 @@ color:  black;
 .tradie-hifi {
     text-align: center;
 }
-
+.link {
+    text-align: center;
+    padding: 3%;
+}
+.link p {
+  background-color: #2c3e50;
+  border: none;
+  text-align: center;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
 @media (max-width: 768px)  {
     .target {
         flex-direction: column;

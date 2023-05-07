@@ -170,7 +170,7 @@ width: 26em;
   border: none;
   text-align: center;
   color: white;
-  padding: 5px 20px;
+  padding: 8px 20px;
   text-decoration: none;
   display: inline-block;
   font-weight: lighter;

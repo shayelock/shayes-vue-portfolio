@@ -159,8 +159,10 @@
 </div>
 
 
+<div class="link">
+<router-link to='/'><p>View more projects</p></router-link>
+</div>
 
-<router-link to='/'><h2>View more projects</h2></router-link>
 </div>
 
 </template>
@@ -331,6 +333,25 @@ width: 30em
     flex-direction: row;
     padding-right: 5%;
     padding-left: 5%;
+}
+.link {
+    text-align: center;
+    padding: 3%;
+}
+.link p {
+  background-color: #2c3e50;
+  border: none;
+  text-align: center;
+  color: white;
+  padding: 8px 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1%;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 @media (max-width: 1024px) {
 
