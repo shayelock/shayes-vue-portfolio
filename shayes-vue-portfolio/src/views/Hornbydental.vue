@@ -7,7 +7,7 @@
 
         <div class="landing-flex">
          <div>
-        <img src="../assets/images/hornbydental/hornbydental logo.png">
+        <img src="../assets/images/hornbydental/hornbydentallogo.png">
        </div>
 
        <div class="text">
@@ -133,10 +133,10 @@
 <h1 class="hornbyh1">User Testing</h1>
 <div class="hornby-test-flex">
 <div class="hornby-nav">
-<img src="../assets/images/hornbydental/Navigation Bar 1.png">
+<img src="../assets/images/hornbydental/NavigationBar1.png">
 <img src="../assets/images/hornbydental/Navigation.jpg">
 <img src="../assets/images/hornbydental/Footer.jpg">
-<img src="../assets/images/hornbydental/Footer 2.png">
+<img src="../assets/images/hornbydental/Footer2.png">
 </div>
 
 <div class="hornby-user">
