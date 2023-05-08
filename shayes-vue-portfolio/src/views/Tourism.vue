@@ -294,10 +294,11 @@ Another user mentioned that they would like to receive a message if nothing resu
 </div>
 
 <div class="link">
-    <h2>Link to project</h2>
+    <div class="tourism-link">
+    <h2>Click link to view project website</h2>
 
-    <a href="https://shayelock.github.io/tourism-nz/">https://shayelock.github.io/tourism-nz/</a>
-
+    <a href="https://shayelock.github.io/tourism-nz/" target="_blank">https://shayelocktourism.nz</a>
+</div>
 
 <router-link to='/'><p>View more projects</p></router-link>
 </div>
@@ -538,6 +539,13 @@ a {
 }
 .hifi-card p {
     margin: 0%;
+}
+.tourism-link {
+    background-color: #568f47;
+    padding: 3%;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 @media (max-width: 768px) {

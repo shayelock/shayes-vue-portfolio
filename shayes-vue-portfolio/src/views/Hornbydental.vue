@@ -19,9 +19,9 @@
 
 <h2>Project Goals </h2>
 <p>Our team has taken up the task of redesigning the website for Honrby Dental Centre. Our main aim is to create a user-friendly and visually appealing website that is easy to navigate and provides users with the information they need to make an informed decision about their dental care. Our redesign will focus on enhancing the overall user experience to help navigation of the website and to update the branding of the website. </p>
-<h3>Improve usability of the website</h3>
-<h3>Update the branding of the website</h3>
-<h3>Create a booking system</h3>
+<h3>- Improve usability of the website</h3>
+<h3>- Update the branding of the website</h3>
+<h3>- Create a booking system</h3>
     </div>
 </div>
 </div>
@@ -32,7 +32,7 @@
     <div class="competitor-image">
         <img src="../assets/images/hornbydental/lumino.png">
     </div>
-    <div class="text">
+    <div class="competitor-text">
     <h2>Lumino</h2>
     <div class="snw-flex">
         <div class="strengths">
@@ -54,7 +54,7 @@
     <div class="competitor-image">
         <img src="../assets/images/hornbydental/sydenham.png">
     </div>
-    <div class="text">
+    <div class="competitor-text">
     <h2>Sydenham</h2>
     <div class="snw-flex">
         <div class="strengths">
@@ -160,7 +160,7 @@
 
 
 <div class="link">
-<router-link to='/'><p>View more projects</p></router-link>
+<router-link to='/'><h3>View more projects</h3></router-link>
 </div>
 
 </div>
@@ -179,22 +179,18 @@
  h1 {
  font-size: 36px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
 }
 h2 {
     font-size: 26px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
 }
 h3 {
     font-size: 20px;
-    margin: 2%;
   font-family:Arial, Helvetica, sans-serif;
 }
 p {
     font-size: 16px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
 }
 .hornby-landing img {
     width: 25em;
@@ -205,13 +201,40 @@ p {
   padding-right: 3%;
   padding-left: 3%;
 }
+.snw-flex p {
+    margin: 0%;
+    padding: 0%;
+}
+.snw-flex h3 {
+    margin: 0%;
+    margin-bottom: 0.5em;
+    padding: 0%;
+}
+.text h2 {
+    margin: 0%;
+}
+.text h3 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.text p {
+    margin-top: 1%;
+}
+.text h1 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.competitor-text {
+    padding: 3%;
+}
+
+.competitor h2 {
+    margin-top: 0%;
+}
 .competitor-flex img {
     height: 15em;
     width: 25em;
 } 
-.competitor-flex h2 {
-    margin-left: 1%;
-}
 .competitor-flex {
     display: flex;
     flex-direction: row;
@@ -249,12 +272,13 @@ p {
     padding-bottom: 2%;
 }
 .persona-text h3 {
-  padding-left: 2%;
+  padding: 0%;
   margin: 0;
 }
 .persona-text {
-padding-top: 3%;
-width: 70%;
+width: 25em;
+padding: 1%;
+padding-left: 3%;
 }
 .sitemap img {
 height: 25em;
@@ -293,9 +317,6 @@ width: 30em
 }
 .wireframes {
     text-align: center;
-}
-.jonah {
-    padding-top: 2em;
 }
 .style-tile {
   text-align: center;
@@ -337,8 +358,9 @@ width: 30em
 .link {
     text-align: center;
     padding: 3%;
+    width: 14em;
 }
-.link p {
+.link h3 {
   background-color: #2c3e50;
   border: none;
   text-align: center;
@@ -346,7 +368,6 @@ width: 30em
   padding: 8px 20px;
   text-decoration: none;
   display: inline-block;
-  font-weight: lighter;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 1%;
@@ -407,11 +428,9 @@ text-align: center;
     width: 25em;
 }
 
-.text h1 {
-    margin: 0;
-}
 .persona-section {
     flex-direction: column;
+    align-items: center;
 }
 .sitemap img {
 height: 10em;
@@ -440,10 +459,10 @@ align-items: center;
 gap: 0;
 }
 .strengths {
-    width: 20em;
+    width: 16em;
 }
 .weaknesses {
-    width: 20em;
+    width: 16em;
 }
   }
 
@@ -462,6 +481,13 @@ gap: 0;
 }
 .hornby-nav img {
     width: 20em;
+}
+.text h1 {
+    font-size: 25px;
+}
+.persona-text {
+padding-top: 1%;
+width: 16em;
 }
   }
   @media (max-width: 320px) {

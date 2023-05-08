@@ -213,8 +213,6 @@ margin-bottom: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 3%;
-
 }
 .text {
 width: 17em;
@@ -435,5 +433,16 @@ width: 17em;
     width: 17em;
 }
 
+}
+@media (max-width: 325px)  {
+    p {
+        font-size: 14px;
+    }
+    h3 {
+        font-size: 14px;
+    }
+    .text {
+        width: 14.5em;
+    }
 }
 </style>

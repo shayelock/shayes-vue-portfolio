@@ -23,46 +23,61 @@
 
 
   <div class="project">
+    <div class="project-image">
 <img src="../assets/images/homepage/hornbycover.png">
+</div>
 <div class="project-text">
 <h2>Hornby Dental Website Redesign</h2>
 <p class="paragraph">Student Website Redesign / Figma / Photoshop</p>
 </div>
+<div class="view-more">
 <router-link to='/Hornbydental'><h3 class="button">View more</h3></router-link>
+</div>
 </div>
 
 
 
   <div class="project">
+    <div class="project-image">
 <img src="../assets/images/homepage/tourismcover.png">
+</div>
 <div class="project-text">
 <h2>Tourism NZ Filtering System</h2>
-<p>Student Project / Filtering system / HTML / CSS / JAVASCRIPT</p>
+<p>Student Project / Filtering system / JavaScript/ HTML / CSS</p>
 </div>
+<div class="view-more">
   <router-link to='/Tourism'><h3 class="button">View more</h3></router-link>
+</div>
 </div>
 
 
 
 
 <div class="project">
+  <div class="project-image">
 <img src="../assets/images/homepage/tradieappcover.jpg">
+</div>
 <div class="project-text">
 <h2>Tradie Market Website and App</h2>
-<p class="paragraph">Student Group Project UI / UX / CSS / JAVASCRIPT / VUE </p>
+<p class="paragraph">Student Group Project /JavaScript / UI / UX / CSS / VUE </p>
 </div>
+<div class="view-more">
 <router-link to='/Tradie'><h3 class="button">View more</h3></router-link>
+</div>
 </div>
 
 
   <div class="project">
+    <div class="project-image">
 <img src="../assets/images/homepage/covereco.png">
+</div>
 <div class="project-text">
 <h2>Eco Website Redesign</h2>
-<p>Student Project / UI / UX / CSS / HTML / JAVASCRIPT</p>
+<p>Student Project / JavaScript / UI / UX / CSS / HTML </p>
 </div>
+<div class="view-more">
 <router-link to='/Eco'><h3 class="button">View more</h3></router-link>
-
+</div>
 </div>
 
  </div>
@@ -130,6 +145,9 @@ p {
 height: 20em;
 width: 26em;
 }
+.project-image {
+  text-align: center;
+}
 .project-flex {
   display: flex;
   flex-direction: row;
@@ -183,8 +201,8 @@ width: 26em;
 
 @media (max-width: 600px) {
   .project-section img {
-    height: 18em;
-    width: 18em;
+    height: 15em;
+    width: 20em;
   }
   .project {
     height: 0%;
@@ -202,4 +220,37 @@ width: 26em;
     font-size: 36px;
   }
 }
+
+@media (max-width: 425px)  {
+  .project-section {
+    margin-top: 3%;
+  }
+  .project-section img {
+    height: 13em;
+    width: 18em;
+  }
+  .project-text {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+  .project-text p {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .project-text h2 {
+    font-size: 20px;
+  }
+  .view-more {
+margin-left: 1.5em;
+padding: 1%;
+  }
+  
+}
+@media (max-width: 320px) {
+  .project-section img {
+    height: 12em;
+    width: 15em;
+  }
+}
+
 </style>
