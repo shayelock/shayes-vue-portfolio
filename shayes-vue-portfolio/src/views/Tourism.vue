@@ -295,9 +295,10 @@ Another user mentioned that they would like to receive a message if nothing resu
 
 <div class="link">
     <div class="tourism-link">
-    <h2>Click link to view project website</h2>
-
+    <h2>Click link to view tourism filtering website</h2>
+     <div class="tourism-web-link">
     <a href="https://shayelock.github.io/tourism-nz/" target="_blank">https://shayelocktourism.nz</a>
+    </div>
 </div>
 
 <router-link to='/'><p>View more projects</p></router-link>
@@ -547,7 +548,12 @@ a {
     margin-top: 3%;
     margin-bottom: 5%;
 }
+.tourism-web-link a {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
 
+}
 @media (max-width: 768px) {
     .image-flex{
 flex-direction: column;

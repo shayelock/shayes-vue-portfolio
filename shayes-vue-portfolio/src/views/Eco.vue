@@ -192,6 +192,13 @@ better user flow and confirmation page added so they user knows it was successfu
 
 </div>
     <div class="link">
+        <div class="tourism-link">
+    <h2>Click link to view tourism filtering website</h2>
+     <div class="tourism-web-link">
+    <a href="    https://shayelock.github.io/eco-website/" target="_blank">https://eco-website.nz</a>
+    </div>
+</div>
+
 <router-link to='/'><h3>View more projects</h3></router-link>
 </div>
 
@@ -394,6 +401,20 @@ text-align: center;
   margin-top: 0%;
   margin-bottom: 0%;
 }
+.tourism-link {
+    background-color: #2a3f29;
+    padding: 3%;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+.tourism-web-link a {
+    color: white;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
 @media (max-width: 1024px)  {
     .eco-hifi img{
     width: 45em;
