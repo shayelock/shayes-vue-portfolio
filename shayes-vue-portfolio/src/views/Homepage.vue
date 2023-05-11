@@ -23,9 +23,9 @@
   <div class="project-section">
     <h1>PROJECTS</h1>
 
-    <div class="project-group">
+    <div class="project-flex">
 
- <div class="project-flex-2">
+
   <div class="project">
     <div class="project-image">
 <img src="../assets/images/homepage/hornbycover.png">
@@ -54,9 +54,9 @@
 </div>
 </div>
 
-</div>
 
-<div class="project-flex-2">
+
+
 <div class="project">
   <div class="project-image">
 <img src="../assets/images/homepage/tradieappcover.jpg">
@@ -85,7 +85,6 @@
 </div>
 
  </div>
- </div>
 </div>
 
 
@@ -102,11 +101,7 @@
   background-attachment: fixed;
   background-size: 100% 100%;
 }
-.project-flex-2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
+
 h1 {
  font-size: 36px;
   font-family:Arial, Helvetica, sans-serif;
@@ -167,6 +162,10 @@ width: 26em;
   text-align: center;
 }
 .project-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1em;
 }
 .project-text p {
@@ -194,9 +193,6 @@ width: 26em;
   padding: 2%;
   width: 26em;
 }
-.project-group {
-  padding-bottom: 5%;
-}
 .button {
   background-color: #2c3e50;
   border: none;
@@ -212,27 +208,14 @@ width: 26em;
   margin-top: 0%;
   margin-bottom: 0%;
 }
-@media (max-width: 768px) {
-  .project img {
-    height: 13em;
-    width: 18em;
+
+@media (max-width: 600px) {
+  .project-section img {
+    height: 15em;
+    width: 20em;
   }
   .project {
     height: 0%;
-    width: 17em;
-  }
-}
-
-
-
-@media (max-width: 768px) {
-  .project img {
-    height: 13em;
-    width: 18em;
-  }
-  .project {
-    height: 0%;
-    width: 18em;
   }
   .landing-section h1 {
     font-size: 36px;
@@ -250,11 +233,15 @@ width: 26em;
 
 @media (max-width: 425px)  {
   .project-section {
-    padding-top: 3%;
+    margin-top: 3%;
   }
   .project-section img {
     height: 13em;
     width: 18em;
+  }
+  .project-text {
+    margin-left: 7%;
+    margin-right: 7%;
   }
   .project-text p {
     margin-top: 3%;
@@ -264,26 +251,15 @@ width: 26em;
     font-size: 20px;
   }
   .view-more {
+margin-left: 1.5em;
 padding: 1%;
   }
-.project-flex-2 {
-  flex-direction: column;
-  align-items: center;
-}
+  
 }
 @media (max-width: 320px) {
   .project-section img {
     height: 12em;
     width: 15em;
-  }
-  .project {
-    width: 15em;
-  }
-  p {
-    font-size: 12px;
-  }
-  h2 {
-    font-size: 18px;
   }
 }
 

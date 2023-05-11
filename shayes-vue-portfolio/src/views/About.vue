@@ -196,10 +196,6 @@ display: block;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(16, 16, 16);
 }
-.experience {
-  padding-bottom: 5%;
-  padding-top: 2%;
-}
 .type-flex h3 {
   font-weight: bold;
   font-size: 20px;
@@ -233,12 +229,10 @@ display: block;
  padding-left: 3%;
 }
 .contact-me {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding: 1%;
 }
 .education {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding: 1%;
 }
 .type-flex {
   display: flex;
@@ -250,10 +244,8 @@ display: block;
   margin-bottom: 0.5em;
 }
 .type {
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding: 1%;
 }
-
 @media (max-width: 768px) {
   .intro-flex {
     flex-direction: column;

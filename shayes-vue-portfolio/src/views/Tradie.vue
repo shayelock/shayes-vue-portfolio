@@ -134,7 +134,7 @@ the job. </p>
         <div class="h1-banner">
     <h1>User Testing </h1>
     </div>
-        <p>After user testing was conducted the changes we made to our user flow with the tradie and user 
+        <p>After using testing was conducted the changes we made to our user flow with the tradie and user 
 account being separate to create less confusion between the two sign in accounts. </p>
 <p>Changes were made to where the display of the 'how to tradies' display is placed on the tradie sign up page.</p>
 <img src="../assets/images/tradieapp/tradie-results.jpg">
