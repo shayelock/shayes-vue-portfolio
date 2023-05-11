@@ -19,9 +19,9 @@
 
 <h2>Project Goals </h2>
 <p>Our team has taken up the task of redesigning the website for Honrby Dental Centre. Our main aim is to create a user-friendly and visually appealing website that is easy to navigate and provides users with the information they need to make an informed decision about their dental care. Our redesign will focus on enhancing the overall user experience to help navigation of the website and to update the branding of the website. </p>
-<h3>- Improve usability of the website</h3>
-<h3>- Update the branding of the website</h3>
-<h3>- Create a booking system</h3>
+<h4>- Improve usability of the website</h4>
+<h4>- Update the branding of the website</h4>
+<h4>- Create a booking system</h4>
     </div>
 </div>
 </div>
@@ -36,14 +36,14 @@
     <h2>Lumino</h2>
     <div class="snw-flex">
         <div class="strengths">
-    <h3>Strengths:</h3>
+    <h4>Strengths:</h4>
     <p>Branding stands out and is recognisable</p>
     <p>Layout of information is user friendly</p>
     <p>Use of colour blocks and information</p>
     <p>Booking easily accessible </p>
 </div>
 <div class="weaknesses">
-    <h3>Weaknesses:</h3>
+    <h4>Weaknesses:</h4>
     <p>The website is a main hub of multiple dentists</p>
 </div>
 </div>
@@ -58,14 +58,14 @@
     <h2>Sydenham</h2>
     <div class="snw-flex">
         <div class="strengths">
-    <h3>Strengths:</h3>
+    <h4>Strengths:</h4>
     <p>Branding colour pallete works well</p>
     <p>Layout of information is easy to read</p>
     <p>Colour blocks keeps it engaging</p>
 
 </div>
 <div class="weaknesses">
-    <h3>Weaknesses:</h3>
+    <h4>Weaknesses:</h4>
     <p> Quality of images </p>
 </div>
 </div>
@@ -82,11 +82,23 @@
       </div>
 
     <div class="persona-text">
-        <h3>Name: Issac & Jonah</h3>
-        <h3>Age: 34 & 9months</h3>
-        <h3>Gender: Male</h3>
-        <h3>Location: Christchurch</h3>
-        <h3>Profession: Builder</h3>
+        <div class="name-flex">
+        <h3>Name: </h3><h4>Issac & Jonah</h4>
+        </div>
+        <div class="name-flex">
+        <h3>Age: </h3><h4> 34 & 9 months</h4>
+        </div>
+        <div class="name-flex">
+        <h3>Gender:</h3><h4> Male</h4>
+        </div>
+        <div class="name-flex">
+        <h3>Location:</h3><h4> Christchurch</h4>
+        </div>
+        <div class="name-flex">
+        <h3>Profession:</h3><h4>Builder</h4>
+        </div>
+
+
        <p> Jonah has recently become a dad who loves spending time with his son Issac. He works full-time as a builder and has recently purchased a house in Hornby. He is on the look out to find his new family doctors, dentist and kindergarten for his family.</p>
      <h3>Motivation</h3>
      <p>Family, Lifestyle, Accessibility</p>
@@ -127,7 +139,7 @@
 <div class="style-tile">
     <img src="../assets/images/hornbydental/Styletile.png">
 </div>
-</div>
+
 
 
 <h1 class="hornbyh1">User Testing</h1>
@@ -152,10 +164,15 @@
 
 
 
-<h1 class="hornbyh1"> Hi-Fi Wireframes</h1>
+<h1 class="hornbyh1">Landing Page</h1>
 <div class="before-after">
-<div>
-<img src="../assets/images/hornbydental/hornbylanding.jpg">
+<img src="../assets/images/hornbydental/beforeafter.jpg">
+</div>
+
+
+<h1 class="hornbyh1">Hi-Fi Wireframes</h1>
+<div class="before-after">
+    <img src="../assets/images/hornbydental/hornbyfinal.jpg">
 </div>
 
 
@@ -179,18 +196,29 @@
  h1 {
  font-size: 36px;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
 }
 h2 {
-    font-size: 26px;
+    font-size: 22px;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
 }
 h3 {
     font-size: 20px;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+h4 {
+    font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  margin: 0%;
+  line-height: 1.2;
 }
 p {
     font-size: 16px;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.6;
 }
 .hornby-landing img {
     width: 25em;
@@ -200,6 +228,10 @@ p {
 .text {
   padding-right: 3%;
   padding-left: 3%;
+  line-height: 1.2;
+}
+.text p {
+    margin-top: 0%;
 }
 .snw-flex p {
     margin: 0%;
@@ -216,9 +248,6 @@ p {
 .text h3 {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-}
-.text p {
-    margin-top: 1%;
 }
 .text h1 {
     margin-top: 1em;
@@ -358,7 +387,6 @@ width: 30em
 .link {
     text-align: center;
     padding: 3%;
-    width: 14em;
 }
 .link h3 {
   background-color: #2c3e50;
@@ -374,6 +402,12 @@ width: 30em
   margin-top: 0%;
   margin-bottom: 0%;
 }
+.name-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
 @media (max-width: 1024px) {
 
 .snw-flex {
@@ -448,7 +482,7 @@ height: 8em;
     width: 20em;
 }
 .before-after img {
-    width: 20em;
+    width: 18em;
 }
 .personas {
     flex-direction: column;
@@ -464,6 +498,7 @@ gap: 0;
 .weaknesses {
     width: 16em;
 }
+
   }
 
   @media (max-width: 425px) {

@@ -1,5 +1,6 @@
 <template>
   <div class="intro-flex">
+
     <div class="image">
       <img src="../assets/images/about/profileedit.png" />
     </div>
@@ -7,24 +8,33 @@
     <div class="about">
       <h1>A Little bit about me</h1>
       <p>
-        Shaye is a talented and passionate student pursuing a degree in web and
+        I'm currently pursuing a degree in web and
         graphic design with a strong focus on user experience UX design. With
-        a natural flair for creativity and a keen eye for aesthetics, Shaye has
+        a natural flair for creativity and a keen eye for aesthetics, I have
         always been fascinated by the intersection of design and technology.
-        They are proficient in various design software, including Adobe Creative
-        Suite, Figma, and in languages such as HTML, CSS, Vue and JavaScript, which allows them to
-        bring their designs to life. Apart from these technical
-        skills, Shaye is an excellent communicator and collaborator. They thrive
+        I have experience in various design software, including Adobe Creative
+        Suite, Figma, and in languages such as HTML, CSS, Vue and JavaScript, which allows me to
+        bring my designs to life. Apart from these technical
+        skills, I am an excellent communicator and collaborator. I thrive
         in team environments and enjoy working with diverse groups of people to
         bring innovative ideas to life.
       </p>
     </div>
   </div>
 
-  <div class="experience-flex">
-    <div class="education">
-      <h1>EDUCATION</h1>
 
+  <div class="experience-flex">
+    <div class="contact-me">
+      <h1>CONTACT</h1>
+      <hr>
+      <h3>Email: shaye.lock-cullimore@hotmail.com</h3>
+      <h3>Phone: 0212590630</h3>
+    </div>
+  
+    <div class="education">
+    
+      <h1>EDUCATION</h1>
+<hr>
       <div class="type-flex">
         <div> <h3>Diploma in Web and Graphic Design</h3></div>
         <div><h4>-  Yoobee Colleges</h4></div>
@@ -36,15 +46,16 @@
       </div>
 
       <div class="type-flex">
-        <h3>Digital Marketing Micro-credential</h3>
+        <h3>Digital Marketing Micro-Credential</h3>
         <h4>-  Yoobee Colleges</h4>
       </div>
     </div>
 
     <div class="experience">
-
       <div class="type">
+      
         <h1>WORK HISTORY</h1>
+        <hr>
         <h2>Ballantynes / Barista</h2>
         <h4>Christchurch</h4>
         <h4>July 2021 - Current</h4>
@@ -126,21 +137,25 @@ h1 {
   padding-top: 1%;
   padding-bottom: 1%;
   margin: 0%;
+  line-height: 1.2;
 }
 h2 {
     font-size: 26px;
   font-family:Arial, Helvetica, sans-serif;
   margin: 0%;
+  line-height: 1.2;
 }
 h3 {
     font-size: 20px;
     margin: 0%;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
 }
 p {
     font-size: 16px;
   font-family:Arial, Helvetica, sans-serif;
   margin: 2%;
+  line-height: 1.6;
 }
 .intro-flex {
   display: flex;
@@ -152,13 +167,13 @@ p {
   padding-bottom: 5%;
 }
 .image img {
-  height: 17em;
-  width: 17em;
-  border-radius: 90%;
+max-width: 100%;
+max-height: 100%;
+display: block;
 }
 .about {
   padding-right: 8%;
-  padding-left: 8%;
+  padding-left: 3%;
 }
 .about h1 {
   font-weight: lighter;
@@ -166,6 +181,7 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   color: #2c3e50;
   margin: 2%;
+  margin-top: 0%;
 }
 .about p {
   font-weight: lighter;
@@ -180,8 +196,16 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(16, 16, 16);
 }
+.type-flex h3 {
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(16, 16, 16);
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
 .experience-flex h3 {
-  font-weight: lighter;
+  font-weight: light;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(16, 16, 16);
@@ -204,6 +228,9 @@ p {
  margin: 0%;
  padding-left: 3%;
 }
+.contact-me {
+  padding: 1%;
+}
 .education {
   padding: 1%;
 }
@@ -218,8 +245,6 @@ p {
 }
 .type {
   padding: 1%;
-  padding-top: 3%;
-  padding-bottom: 3%;
 }
 @media (max-width: 768px) {
   .intro-flex {

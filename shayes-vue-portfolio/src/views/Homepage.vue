@@ -13,7 +13,11 @@
       visually appealing.
     </h2>
     <h3>Check out my work</h3>
+
+
     <img src="../assets/images/homepage/arrow.svg" />
+
+
   </div>
 
   <div class="project-section">
@@ -87,6 +91,7 @@
 </template>
 
 <style scoped>
+
 .landing-section {
   color: white;
   text-align: center;
@@ -101,21 +106,25 @@ h1 {
  font-size: 36px;
   font-family:Arial, Helvetica, sans-serif;
   margin: 2%;
+  line-height: 1.2;
 }
 h2 {
     font-size: 26px;
   font-family:Arial, Helvetica, sans-serif;
   margin: 2%;
+  line-height: 1.2;
 }
 h3 {
     font-size: 20px;
     margin: 2%;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
 }
 p {
     font-size: 16px;
   font-family:Arial, Helvetica, sans-serif;
   margin: 2%;
+  line-height: 1.6;
 }
 .landing-section img {
   height: 4em;
@@ -145,6 +154,10 @@ p {
 height: 20em;
 width: 26em;
 }
+.project-section h1 {
+  margin: 0;
+  padding: 3%;
+}
 .project-image {
   text-align: center;
 }
@@ -166,9 +179,6 @@ width: 26em;
 }
 .project-section {
   text-align: left;
-  margin-left: 8%;
-  margin-right: 8%;
-  margin-bottom: 3%;
   font-family: Arial, Helvetica, sans-serif;
   color: #2c3e50;
   background-color: rgb(240, 242, 243);

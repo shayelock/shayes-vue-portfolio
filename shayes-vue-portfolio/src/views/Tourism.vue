@@ -1,14 +1,18 @@
 <template>
     <div class="body">
    <div class="image-flex">
-    <div class="tourism">
-    <img  src="../assets/images/tourism/tourismlanding.png">
-    </div>
 
     <div class="logo">
+        <div class="tourism-link">
+    <h2>Click link to view tourism filtering website</h2>
+     <div class="tourism-web-link">
+    <a href="https://shayelock.github.io/tourism-nz/" target="_blank">https://shayelocktourism.nz</a>
+    </div>
+</div>
+
     <img src="../assets/images/tourism/tourismlogo.png">
      <h1>Brief</h1>
-     <p>Tourism New Zealand works with the tourism industry to positively promote New Zealand internationally. The new campaign is aiming to atrract visitors looking to stay for a short periods and allowing them to book accommodation directly from the website. To achieve this I created a booking system that is part of the current Tourism New Zealand Website/Branding but also is clearly part of a seperate accommodation booking system.
+     <p>Tourism New Zealand works with the tourism industry to positively promote New Zealand internationally. The new campaign is aiming to attract visitors looking to stay for a short periods and allowing them to book accommodation directly from the website. To achieve this I created a booking system that is part of the current Tourism New Zealand Website/Branding but also is clearly part of a seperate accommodation booking system.
      </p>
     </div>
     </div>
@@ -34,7 +38,7 @@
             <h3>Occupation</h3>
             <h3>Class: Middle</h3>
             <h3>Location: Ireland</h3>
-            <p>Julie is looking at visiting over the summer holidays with her partner. Julie is researching places to stay at each destination. Julie researches places to visit and stay while she is traveling.</p>
+            <p>Julie is looking at visiting over the summer holidays with her partner. She is researching places to stay at each destination while traveling in New Zealand.</p>
             <h3>Fustrations:</h3>
             <p>She would like a website that offers all the information on where to stay and travel instead of looking over multiple sites and getting overwhelmed.</p>
            </div>
@@ -48,12 +52,12 @@
 
                 <div class="scenario">
             <h2>Scenario</h2>
-            <p>Julie is looking to travel to New Zealand in the school holidays and is looking at the New Zealand Tourism site to get information and ideas on where to travel and stay.</p>
+            <p>She is looking to travel to New Zealand in the school holidays and is looking at the New Zealand Tourism site to get information and ideas on where to travel and stay.</p>
             </div>
 
             <div class="expectations">
                 <h2>Expectations</h2>
-                <p>Julie expects the website will have all the information she needs to plan her trip from ideas to what to do and where to stay and eat when she travels.</p>
+                <p>She expects the website will have all the information she needs to plan her trip from ideas to what to do and where to stay and eat when she travels.</p>
             </div>
             </div>
          </div>
@@ -71,11 +75,11 @@
             <div class="feelings">
                 <h2>Consider</h2>
                 <br>
-<p>Julie looks for activities and locations when she is looking through the website</p>
+<p> Looks for activities and locations when she is looking through the website</p>
 <br>
-<p>She has now found a place she wants to visit and is now looking for accommodation nearby.</p>
+<p>Has now found a place she wants to visit and is now looking for accommodation nearby.</p>
 <br>
-<p>She is now looking on the website for accommodation</p>
+<p>Now looking on the website for accommodation</p>
 <br>
 <p>She also wants to compare prices, cost and  restaurants onsite</p>
  
@@ -84,17 +88,17 @@
             <div class="feelings">
                 <h2>Book</h2>
                 <br>
-<p>Julie adds her requirements in the filters </p>
+<p>Adds her requirements in the filters </p>
 <br>
-<p>She finds accommodation that suits her needs </p>
+<p>Finds accommodation that suits her needs </p>
 <br>
-<p>She books accommodation</p>
+<p>Books accommodation</p>
             </div>
 
             <div class="feelings">
                 <h2>Confirmation</h2>
                 <br>
-<p>She receives booking confirmation</p>
+<p>Receives booking confirmation</p>
 <br>
 <p>Takes her back to the homepage to brows for more</p>
 
@@ -294,12 +298,6 @@ Another user mentioned that they would like to receive a message if nothing resu
 </div>
 
 <div class="link">
-    <div class="tourism-link">
-    <h2>Click link to view tourism filtering website</h2>
-     <div class="tourism-web-link">
-    <a href="https://shayelock.github.io/tourism-nz/" target="_blank">https://shayelocktourism.nz</a>
-    </div>
-</div>
 
 <router-link to='/'><p>View more projects</p></router-link>
 </div>
@@ -317,11 +315,13 @@ h1 {
  font-size: 36px;
   font-family:Arial, Helvetica, sans-serif;
   margin: 2%;
+  line-height: 1.2;
 }
 h2 {
     font-size: 26px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
+  margin: 0%;
+  line-height: 1.2;
 }
 h3 {
     font-size: 20px;
@@ -329,13 +329,14 @@ h3 {
     margin-right: 0%;
     margin-bottom: 0%;
     margin-top: 0%;
-    
+    line-height: 1.2;
   font-family:Arial, Helvetica, sans-serif;
 }
 p {
     font-size: 16px;
   font-family:Arial, Helvetica, sans-serif;
   margin: 2%;
+  line-height: 1.6;
 }
 .logo img {
     height: 3em;

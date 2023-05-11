@@ -6,19 +6,21 @@
 <div class="tradie-landing">
     
     <img src="../assets/images/tradieapp/tradielogo.png">
+    <div class="tradie-brief">
     <h1>Brief:</h1>
-    <p>FindATradie is needing a platform designed to revolutionize the way clients connect with tradespeople. By creating a seamless and efficient experience, we bridge the gap between clients seeking professional services and tradespeople showcasing their skills. It needs a user-friendly and accessible platform simplifies the process of finding and hiring the right tradie, ensuring client satisfaction and empowering businesses to thrive. Clients should be able to browse businesses, view trades, request quotes, track job progress, and leave reviews, while businesses can sign up, describe their services, showcase their expertise with before and after photos, provide quotes for potential clients, and manage their jobs. 
+    <p>FindATradie is needing a platform designed to revolutionize the way clients connect with tradespeople. By creating a seamless and efficient experience, we bridge the gap between clients seeking professional services and tradespeople showcasing their skills. It needs to simplify the process of finding and hiring the right tradie, ensuring client satisfaction and empowering businesses to thrive. Clients should be able to browse businesses, view trades, request quotes, track job progress, and leave reviews, while businesses can sign up, describe their services, showcase their expertise with before and after photos, provide quotes for potential clients, and manage their jobs. 
 </p>
+</div>
+<div class="tradie-brief">
 <h1>Design Process</h1>
 <h3>The milestones considered in this project are meant to give a gauge of progress to the client. Showcasing the extent of work in completing the project.</h3>
-<p>1. Creating the documentation for client
-The documentation will contain research on the subject, a competitor analysis of companies, primary and secondary target audience along with  personas, a simple site map, user journeys of the personas and a style tile.</p>
-<p>2. Design the wireframes w/user testing
-The involves the design of low fidelity wireframes with user testing documented along with high fidelity wireframes with feedback and user testing. The documentation of these will be added to the documents given to the client.</p>
-<p>3.  Code the Front End
-Create the layout and style of the website using Vue Frameworks (HTML,CSS & Javascript). While debugging along the way.</p>
-<p>4.  Code the Back End
-Create the information populated on the website using Mongoose, Express etc. While debugging along the way.</p>
+<div class="tradie-brief-p">
+<p>1. Research on the subject, a competitor analysis of companies, primary and secondary target audience along with  personas, a simple site map, user journeys of the personas and a style tile.</p>
+<p>2. Produce Lo-Fi wireframes and Hi-Fi wireframes, and complete user testing during each stage of the design process.</p>
+<p>3. Create the front end layout and style of the website using Vue Frameworks (HTML,CSS & Javascript).</p>
+<p>4. Create the back end and populated information on the website using Mongoose, Express etc.</p>
+</div>
+</div>
 </div>
 
 <div class="target">
@@ -57,7 +59,7 @@ Create the information populated on the website using Mongoose, Express etc. Whi
 
 <div class="user-flex">
 <div class="user">
-<h2>Scenario:</h2>
+<h2>Scenario</h2>
 <p>Susan is looking to find a tradie to help her build a deck.</p>
 </div>
 <div class="user">
@@ -71,24 +73,37 @@ Create the information populated on the website using Mongoose, Express etc. Whi
     <img src="../assets/images/tradieapp/susan1.png">
 </div>
 <div class="persona">
-   <h3> Name: Susan</h3>
-<h3>Occupation: House Wife</h3>
-<h3>Age: 43</h3>
-<h3>Marital status: Married</h3>
-<h3>Location: Christchurch</h3>
-<h3>Interest:</h3>
+<div class="persona-name-flex">
+   <h3> Name: </h3><h4>Susan</h4>
+   </div>
+   <div class="persona-name-flex">
+<h3>Occupation: </h3><h4>House Wife</h4>
+</div>
+<div class="persona-name-flex">
+<h3>Age: </h3><h4>43</h4>
+</div>
+<div class="persona-name-flex">
+<h3>Marital status:</h3><h4>Married</h4>
+</div>
+<div class="persona-name-flex">
+<h3>Location: </h3><h4>Christchurch</h4>
+</div>
 
+<div class="interest-goals">
+    <br>
+<h3>Interest</h3>
 <p>Susan likes to garden on the weekends, 
 cooking for her family and looking after 
 herself at the gym.</p>
 
-
-<h3>Goals:</h3>
+<br>
+<h3>Goals</h3>
 <p>Looking to hire someone to help build a 
 deck at her home as its beyond her skill 
 level and her husband works a corporate 
 job so its easier to pay someone to do 
 the job. </p>
+</div>
 </div>
 </div>
 
@@ -117,11 +132,11 @@ the job. </p>
 
     <div class="tradie-results">
         <div class="h1-banner">
-    <h1>Results </h1>
+    <h1>User Testing </h1>
     </div>
         <p>After using testing was conducted the changes we made to our user flow with the tradie and user 
-account being separate to create less confusion between the two sign in accounts. Changes were 
-made to where the display of the 'how to tradies' display is placed on the tradie sign up page.</p>
+account being separate to create less confusion between the two sign in accounts. </p>
+<p>Changes were made to where the display of the 'how to tradies' display is placed on the tradie sign up page.</p>
 <img src="../assets/images/tradieapp/tradie-results.jpg">
     </div>
 
@@ -152,31 +167,39 @@ made to where the display of the 'how to tradies' display is placed on the tradi
 h1 {
  font-size: 36px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
+  margin: 0%;
+  line-height: 1.2;
 }
 h2 {
     font-size: 26px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
+  margin: 0%;
+  line-height: 1.2;
 }
 h3 {
     font-size: 20px;
-    margin: 2%;
+    margin: 0%;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+h4 {
+    font-size: 20px;
+    margin: 0%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  line-height: 1.2;
 }
 p {
     font-size: 16px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
+  margin: 0%;
+  line-height: 1.6;
 }
 .body {
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 8%;
     margin: 0;
-}
-.tradie-landing {
-    padding: 3%;
 }
 .tradie-landing img {
     width: 20em;
@@ -191,11 +214,10 @@ margin-bottom: 0;
     justify-content: center;
     background-color: #f5f5f5;
     align-items: center;
-    margin-right: 3%;
-    margin-left: 3%;
     padding-left: 1%;
     padding-right: 1%;
-
+    margin-top: 1em;
+margin-bottom: 1em;
 }
 .target-flex {
     display: flex;
@@ -212,7 +234,7 @@ margin-bottom: 0;
 .target-text {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .text {
 width: 17em;
@@ -220,10 +242,11 @@ width: 17em;
 .h1-flex {
 align-content: center;
 width: 100%;
-padding: 3%;
+padding: 1em;
 }
 .h1-flex h1 {
  text-align: center;
+ padding: 0.5em;
 }
 .h1-banner {
     background-color: #f87b06;
@@ -232,16 +255,29 @@ padding: 3%;
    margin-top: 3%;
 
 }
+.interest-goals {
+padding-top: 1%;
+padding-bottom: 1%;
+}
+.persona-name-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
 .user-flex {
     display: flex;
     flex-direction: row;
     background-color: #f5f5f5;
-    margin: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     padding: 3%;
+    gap: 3em;
 }
 .persona-flex {
     display: flex;
     flex-direction: row;
+    padding-top: 3%;
+    padding-bottom:3%;
 }
 .persona-flex img {
     width: 20em;
@@ -260,7 +296,7 @@ padding: 3%;
     padding: 3%;
 }
 .persona h3 {
-margin: 2%;
+margin: 0em;
 }
 .tradie-sitemap img {
     width: 45em;
@@ -333,6 +369,14 @@ color:  black;
   margin-left: 1%;
   margin-top: 0%;
   margin-bottom: 0%;
+}
+.tradie-brief {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.tradie-brief-p {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 @media (max-width: 768px)  {
     .target {

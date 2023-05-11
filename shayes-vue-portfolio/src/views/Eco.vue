@@ -4,11 +4,26 @@
 <template>
 
 <div class="eco-landing">
-
+    <div class="tourism-link">
+    <h2>Click link to view tourism filtering website</h2>
+     <div class="tourism-web-link">
+    <a href="    https://shayelock.github.io/eco-website/" target="_blank">https://eco-website.nz</a>
+    </div>
+</div>
 
      <div class="eco-landing-flex">
+
     <div class="eco-brief">
+        
+        <div class="eco-brief-flex">
+
+            <div class="eco-logo">
+        <img src="../assets/images/eco/ecologo.jpg">
+        </div>
+
+        <div class="eco-brief">
         <h1>Eco wesbite Redesign</h1>
+
     <h2>Brief:</h2>
     <p>Eco’s (Enviroment and conservation organisation) website currently 
 is outdated and are looking to do an overall re-branding of the website. 
@@ -16,26 +31,37 @@ The information architecture makes it hard for the user to find
 information they are looking for on the website. They want to create 
 eye catching website that draws the user in while still inline with their 
 brand identity, as well as the overall usability of the website.</p>
-<h2>Project Goals</h2>
-<p>To re-design the quality of their website to improve the user flow, 
-functionality and overall re-branding of the website. </p>
+
+
 </div>
+
+
+</div>
+
+</div>
+
+</div>
+
 <div class="eco-process">
 <div class="vl">
 <h2>Design Process</h2>
-<h3>Identify problem</h3>
-<h3>Research</h3>
-<h3>Ideation</h3>
-<h3>Lo-Fi Wireframes</h3>
-<h3>Hi-Fi Wireframes</h3>
-<h3>Prototype</h3>
-<h3>User Testing</h3>
-<h3>Development</h3>
-</div>
+<h4>Identify problem</h4>
+<h4>Research</h4>
+<h4>Ideation</h4>
+<h4>Lo-Fi Wireframes</h4>
+<h4>Hi-Fi Wireframes</h4>
+<h4>Prototype</h4>
+<h4>User Testing</h4>
+<h4>Development</h4>
 </div>
 </div>
 
 <div class="pns">
+
+    <h2>Project Goals</h2>
+<p>To re-design the quality of their website to improve the user flow, 
+functionality and overall re-branding of the website. </p>
+
 <h2>Pain Points</h2>
 <p>The current website is very informational however needs to be more simplified for the general user 
 to find/get access to this information.</p>
@@ -163,8 +189,12 @@ this in his day to day living.
         </div>
 
         <div class="eco-styletile">
+            <div>
             <h1>Style Tile</h1>
+            </div>
+            <div class="eco-logo">
             <img src="../assets/images/eco/eco-styletile.jpg">
+            </div>
         </div>
 
 <div class="eco-lofi">
@@ -191,14 +221,8 @@ better user flow and confirmation page added so they user knows it was successfu
     </div>
 
 </div>
-    <div class="link">
-        <div class="tourism-link">
-    <h2>Click link to view tourism filtering website</h2>
-     <div class="tourism-web-link">
-    <a href="    https://shayelock.github.io/eco-website/" target="_blank">https://eco-website.nz</a>
-    </div>
-</div>
 
+<div class="link">
 <router-link to='/'><h3>View more projects</h3></router-link>
 </div>
 
@@ -212,18 +236,28 @@ better user flow and confirmation page added so they user knows it was successfu
 h1 {
  font-size: 36px;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
 }
 h2 {
     font-size: 26px;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
 }
 h3 {
     font-size: 20px;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+h4 {
+    font-size: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+  font-weight: lighter;
 }
 p {
     font-size: 16px;
   font-family:Arial, Helvetica, sans-serif;
+  line-height: 1.6;
 }
 
 .eco-landing-flex {
@@ -233,7 +267,6 @@ p {
 .eco-process {
     background-color: rgb(240, 242, 243);
     padding: 3%;
-    width: 60em;
 }
 .eco-process h2 {
     margin-bottom: 1em;
@@ -250,8 +283,11 @@ p {
     margin-left: 8%;
     margin-right: 8%;
 }
+.eco-logo img {
+    width: 12em;
+    padding: 5%;
+}
 .pns {
-    background-color: rgb(240, 242, 243);
     padding: 3%;
 }
 .vl {
@@ -305,6 +341,12 @@ p {
 .current-website-text {
     padding: 3%;
 }
+.eco-brief-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3%;
+}
 .eco-information {
     display: flex;
     flex-direction: column;
@@ -338,8 +380,10 @@ text-align: center;
     background-color:  rgb(240, 242, 243);
     padding: 3%;
 }
-.vl h3 {
-    margin: 1em;
+.vl h4 {
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .pns h2 {
     margin: 0%;
@@ -405,8 +449,6 @@ text-align: center;
     background-color: #2a3f29;
     padding: 3%;
     color: white;
-    margin-top: 3%;
-    margin-bottom: 5%;
 }
 .tourism-web-link a {
     color: white;

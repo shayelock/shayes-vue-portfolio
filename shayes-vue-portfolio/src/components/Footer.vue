@@ -6,7 +6,6 @@ import { Icon } from "@iconify/vue";
   <div class="footer-flex">
     <div class="contact">
       <h1>Contact me</h1>
-      <h2>Phone: 0212590630</h2>
       <h2>Email: shaye.lock-cullimore@hotmail.com</h2>
     </div>
 
@@ -74,7 +73,7 @@ import { Icon } from "@iconify/vue";
         font-family: Arial, Helvetica, sans-serif;
       }
       .footer-flex h2 {
-        font-size: 12px;
+        font-size: 14px;
         font-weight: lighter;
         font-family: Arial, Helvetica, sans-serif;
 
