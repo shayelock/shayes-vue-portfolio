@@ -189,7 +189,10 @@ display: block;
   font-family: Arial, Helvetica, sans-serif;
   color: #2c3e50;
 }
-
+.experience {
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
 .experience-flex h2 {
   font-weight: lighter;
   font-size: 26px;
@@ -229,10 +232,12 @@ display: block;
  padding-left: 3%;
 }
 .contact-me {
-  padding: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .education {
-  padding: 1%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .type-flex {
   display: flex;
@@ -244,7 +249,8 @@ display: block;
   margin-bottom: 0.5em;
 }
 .type {
-  padding: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 @media (max-width: 768px) {
   .intro-flex {

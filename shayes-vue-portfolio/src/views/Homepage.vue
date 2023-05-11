@@ -23,7 +23,8 @@
   <div class="project-section">
     <h1>PROJECTS</h1>
 
-    <div class="project-flex">
+    <div class="project-group">
+      <div class="project-flex-2">
 
 
   <div class="project">
@@ -53,9 +54,9 @@
   <router-link to='/Tourism'><h3 class="button">View more</h3></router-link>
 </div>
 </div>
+</div>
 
-
-
+<div class="project-flex-2">
 
 <div class="project">
   <div class="project-image">
@@ -85,6 +86,7 @@
 </div>
 
  </div>
+ </div>
 </div>
 
 
@@ -100,6 +102,11 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+}
+.project-flex-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 h1 {
@@ -161,12 +168,8 @@ width: 26em;
 .project-image {
   text-align: center;
 }
-.project-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1em;
+.project-group {
+  padding-bottom: 5%;
 }
 .project-text p {
   margin: 1%;
@@ -190,8 +193,8 @@ width: 26em;
   font-size: 46px;
 }
 .project {
-  padding: 2%;
   width: 26em;
+  padding: 1em;
 }
 .button {
   background-color: #2c3e50;
@@ -209,13 +212,21 @@ width: 26em;
   margin-bottom: 0%;
 }
 
-@media (max-width: 600px) {
-  .project-section img {
-    height: 15em;
-    width: 20em;
+@media (max-width: 768px) {
+  .project img {
+    height: 13em;
+    width: 18em;
   }
   .project {
     height: 0%;
+    width: 17em;
+  }
+}
+
+@media (max-width: 600px) {
+  .project {
+    height: 0%;
+    width: 18em;
   }
   .landing-section h1 {
     font-size: 36px;
@@ -233,16 +244,13 @@ width: 26em;
 
 @media (max-width: 425px)  {
   .project-section {
-    margin-top: 3%;
+    padding-top: 3%;
   }
   .project-section img {
     height: 13em;
     width: 18em;
   }
-  .project-text {
-    margin-left: 7%;
-    margin-right: 7%;
-  }
+
   .project-text p {
     margin-top: 3%;
     margin-bottom: 3%;
@@ -251,15 +259,33 @@ width: 26em;
     font-size: 20px;
   }
   .view-more {
-margin-left: 1.5em;
 padding: 1%;
   }
-  
+  .project-flex-2 {
+  flex-direction: column;
+  align-items: center;
+}
+.project {
+    width: 18em;
+    padding-top: 1%;
+    padding-bottom: 2%;
+  }
+  p {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 18px;
+  }
 }
 @media (max-width: 320px) {
   .project-section img {
     height: 12em;
     width: 15em;
+  }
+  .project {
+    width: 15em;
+    padding-top: 1%;
+    padding-bottom: 2%;
   }
 }
 
