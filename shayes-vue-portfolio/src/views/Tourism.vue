@@ -3,12 +3,24 @@
    <div class="image-flex">
 
     <div class="logo">
+
+    
+
         <div class="tourism-link">
-    <h2>Click link to view tourism filtering website</h2>
+
+            <div class="link-image">
+            <img src="../assets/images/tourism/tourismcover.png">
+         </div>
+
+
+
      <div class="tourism-web-link">
+        <h2>Click link to view tourism filtering component</h2>
     <a href="https://shayelock.github.io/tourism-nz/" target="_blank">https://shayelocktourism.nz</a>
     </div>
+    
 </div>
+
 
     <img src="../assets/images/tourism/tourismlogo.png">
      <h1>Brief</h1>
@@ -340,7 +352,7 @@ p {
 }
 .logo img {
     height: 3em;
-    margin: 2%;
+    margin-left: 2%;
 }
 .tourism img {
     height: 18em;
@@ -351,7 +363,6 @@ p {
     flex-direction: row;
     justify-content: center;
     gap: 5%;
-    padding: 3%;
 }
 .client-goals {
     background-color: #f5f5f5 ;
@@ -543,17 +554,43 @@ a {
     margin: 0%;
 }
 .tourism-link {
-    background-color: #568f47;
-    padding: 3%;
+  background-color: #568f47;
     color: white;
     margin-top: 3%;
     margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
 }
 .tourism-web-link a {
     color: white;
     font-size: 20px;
     text-decoration: underline;
-
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.5px;
+}
+a:hover {
+  color: rgb(169, 169, 169);
+}
+.tourism-web-link {
+    padding: 3%;
+    width: 40em;
+}
+.tourism-web-link h2 {
+font-size: 20px;
+padding-top: 2%;
+padding-bottom: 2%;
+}
+.tourism-link img {
+    margin: 0%;
+}
+.link-image img {
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 1024px)  {
+.tourism-web-link {
+    width: 25em;
+}
 }
 @media (max-width: 768px) {
     .image-flex{
@@ -618,6 +655,26 @@ flex-direction: column;
 
 @media (max-width: 425px) {
  
+    .client-goals {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .emotions {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .competitor-flex {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .low-fi {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .style-guide {
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
     .c-text p {
         font-size: 12px;
     }
@@ -664,6 +721,19 @@ flex-direction: column;
     }
     h1 {
         font-size: 20px;
+    }
+    .tourism-link {
+        display: flex;
+        flex-direction: column;
+    }
+    .tourism-link img {
+        height: 100%;
+    }
+    .tourism-web-link h2 {
+        font-size: 14px;
+    }
+    .tourism-web-link a {
+        font-size: 16px;
     }
 }
 </style>

@@ -8,7 +8,7 @@
   <div class="landing-section">
     <h1>SHAYE LOCK-CULLIMORE</h1>
     <h2>
-      Welcome to my portfolio website! As a UX/UI designer, I'm passionate about
+      Welcome to my portfolio! As a UX/UI designer, I'm passionate about
       creating user-centered experiences that are not only functional but also
       visually appealing.
     </h2>
@@ -27,20 +27,20 @@
       <div class="project-flex-2">
 
 
-  <div class="project">
+
+
+<div class="project">
     <div class="project-image">
-<img src="../assets/images/homepage/hornbycover.png">
+<img src="../assets/images/homepage/covereco.png">
 </div>
 <div class="project-text">
-<h2>Hornby Dental Website Redesign</h2>
-<p class="paragraph">Student Website Redesign / Figma / Photoshop</p>
+<h2>Eco Website Redesign</h2>
+<p>Student Project / JavaScript / UI / UX / CSS / HTML </p>
 </div>
 <div class="view-more">
-<router-link to='/Hornbydental'><h3 class="button">View more</h3></router-link>
+<router-link to='/Eco'><h3 class="button">View more</h3></router-link>
 </div>
 </div>
-
-
 
   <div class="project">
     <div class="project-image">
@@ -71,19 +71,19 @@
 </div>
 </div>
 
-
-  <div class="project">
+<div class="project">
     <div class="project-image">
-<img src="../assets/images/homepage/covereco.png">
+<img src="../assets/images/homepage/hornbycover.png">
 </div>
 <div class="project-text">
-<h2>Eco Website Redesign</h2>
-<p>Student Project / JavaScript / UI / UX / CSS / HTML </p>
+<h2>Hornby Dental Website Redesign</h2>
+<p class="paragraph">Student Website Redesign / Figma / Photoshop</p>
 </div>
 <div class="view-more">
-<router-link to='/Eco'><h3 class="button">View more</h3></router-link>
+<router-link to='/Hornbydental'><h3 class="button">View more</h3></router-link>
 </div>
 </div>
+
 
  </div>
  </div>
@@ -187,7 +187,6 @@ width: 26em;
   background-color: rgb(240, 242, 243);
 }
 .project-section h1 {
-  padding-top: 2%;
   text-align: center;
   font-weight: bold;
   font-size: 46px;
@@ -274,6 +273,12 @@ padding: 1%;
     font-size: 12px;
   }
   h2 {
+    font-size: 18px;
+  }
+  .landing-section h1 {
+    font-size: 26px;
+  }
+  .landing-section h2 {
     font-size: 18px;
   }
 }

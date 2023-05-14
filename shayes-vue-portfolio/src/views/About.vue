@@ -59,30 +59,25 @@
         <h2>Ballantynes / Barista</h2>
         <h4>Christchurch</h4>
         <h4>July 2021 - Current</h4>
-        <h3>Key Responsibilities</h3>
-<p>- Operate coffee machines, grinders, and other equipment, ensuring that they are clean and properly maintained</p>
-<p>- Handle cash and card transactions accurately and efficiently, closing of tills</p>
-<p>- Maintain a clean and organised cafe environment, including cleaning tables and counters</p>
-<p>- Keep track of inventory levels and inform management when supplies are running low</p>
-<p>- Engage with customers and provide excellent customer service, answering questions and providing
- recommendations as needed</p>
-<p>- Working functions etc fashion shows </p>
+        <h3>Key Skills</h3>
+<p>- Barista</p>
+<p>- Customer Service</p>
+<p>- Time Management</p>
+<p>- inventory Management</p>
+
       </div>
 
       <div class="type">
         <h2>Ten 27 / 2IC Manager</h2>
         <h4>Christchurch</h4>
         <h4>Feb 2019 - July 2021</h4>
-        <h3>Key Responsibilities</h3>
+        <h3>Key Skills</h3>
 
-<p>- Assist the Manager in managing staff, including hiring, training, scheduling, and performance evaluations </p>
-<p>- Ensure excellent customer service by training staff in customer service and maintaining a friendly and welcoming atmosphere</p>
-<p>- Maintain the cafe's cleanliness and organisation, including overseeing cleaning schedules and ensuring compliance with health and safety regulations</p>
-<p>- Manage inventory and ordering of supplies, including food and beverages, and work with the Manager to develop and update the menu</p>
-<p>- Handle customer complaints and resolve issues in a timely and professional manner</p>
-<p>- Assist the Cafe Manager in developing and implementing marketing and promotional strategies to attract and retain customers</p>
-<p>- Provide support to the Manager in managing finances, including monitoring revenue and expenses, and ensuring profitability</p>
-<p>- Stay up-to-date with industry trends and make improvements to the cafe's operations</p>
+<p>- Training Staff </p>
+<p>- Leadership</p>
+<p>- Customer Service</p>
+<p>- Inventory Management</p>
+<p>- Marketing and Promotional Strategies</p>
 
       </div>
 
@@ -92,38 +87,37 @@
         <h4>Feb 2019 - July 2021</h4>
         <h3> Key Responsibilities</h3>
 
-<p>- Greeting customers and taking orders for food and drinks </p>
-<p>- Preparing food and beverages, including coffee, tea, and other specialty drinks</p>
-<p>- Operating and maintaining coffee machines and other kitchen equipment</p>
-<p>- Cleaning and sanitising the cafe, including tables, countertops, and equipment</p>
-<p>- Handling cash and card transactions, including operating a cash register</p>
-<p>- Restocking supplies, including food, drinks, and paper products </p>
-<p>- Following health and safety guidelines, including food safety regulations </p>
+<p>- Customer Service</p>
+<p>- Barista </p>
       </div>
 
       <div class="type">
         <h2>The George / Pastry Chef </h2>
         <h4>Christchurch</h4>
         <h4>June 2017 - Feb 2018</h4>
-        <h3>Key Responsibilities</h3>
+        <h3>Key Skills</h3>
 
-<p>- Working closely with the executive chef and other members of the kitchen team to create a dessert menu that fits with the overall restaurant concept.</p>
-<p>- Creating and preparing desserts recipes and techniques, and ensuring that they are consistently of the highest quality.</p>
-<p>- Creating/preparing desserts for catering events</p>
-<p>- Ensuring that desserts are presented to a high standard</p>
-<p>- Managing inventory levels and ordering ingredients as needed</p>
+<p>- Communication</p>
+<p>- Teamwork</p>
+<p>- Creating/preparing desserts</p>
+<p>- Inventory Management</p>
+<p>- Multitasking</p>
+<p>- Creativity</p>
+<p>- Self Motivated</p>
       </div>
 
       <div class="type">
         <h2>Mona Vale / Pastry Chef </h2>
         <h4>Christchurch</h4>
         <h4>Oct 2016 - June 2017</h4>
-        <h3>Key Responsibilities</h3>
+        <h3>Key Skills</h3>
+        <p>- Communication</p>
+<p>- Teamwork</p>
+<p>- Creating/preparing desserts</p>
+<p>- Inventory Management</p>
+<p>- Multitasking</p>
+<p>- Creativity</p>
 
-<p>- Working closely with the head chef to create a high tea menu that is in line with the overall concept and style of the establishment, as well as customer preferences. </p>
-<p>- Creating and preparing a range of pastries, cakes, scones, and other sweet treats, as well as savoury items such as sandwiches and quiches. </p>
-<p>- Ensuring that the high tea experience is visually appealing, with beautiful presentation of the food and table setting. </p>
-<p>- Managing inventory levels and ordering ingredients as needed to ensure that the high tea service runs smoothly and efficiently. </p>
       </div>
     </div>
   </div>
@@ -173,14 +167,15 @@ display: block;
 }
 .about {
   padding-right: 8%;
-  padding-left: 3%;
+  padding-left: 8%;
 }
 .about h1 {
   font-weight: lighter;
   font-size: 36px;
   font-family: Arial, Helvetica, sans-serif;
   color: #2c3e50;
-  margin: 2%;
+  padding-bottom: 2%;
+  padding-top: 2%;
   margin-top: 0%;
 }
 .about p {
@@ -188,6 +183,7 @@ display: block;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   color: #2c3e50;
+  margin: 0%;
 }
 .experience {
   padding-bottom: 5%;
@@ -252,13 +248,27 @@ display: block;
   padding-top: 1%;
   padding-bottom: 1%;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+
   .intro-flex {
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: 0;
     padding-top: 5em;
   }
+  .image img {
+    width: 20em;
+    height: 100%;
+  }
+  .image {
+    padding-right: 8%;
+    padding-left: 8%;
+    padding-top: 3%;
+    margin: 0%;
+  }
+}
+
+@media (max-width: 768px) {
   .experience-flex {
     flex-direction: column;
   }

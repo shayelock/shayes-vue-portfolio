@@ -3,10 +3,24 @@
 
 <template>
 
+
+
+
+
+
+
+
 <div class="eco-landing">
-    <div class="tourism-link">
-    <h2>Click link to view tourism filtering website</h2>
-     <div class="tourism-web-link">
+
+
+    <div class="eco-link">
+
+    <div class="eco-link-image">
+        <img src="../assets/images/eco/ecocover.png">
+        </div>
+
+        <div class="eco-web-link">
+    <h2>Click link to view Enviromental and Conservation website</h2>
     <a href="    https://shayelock.github.io/eco-website/" target="_blank">https://eco-website.nz</a>
     </div>
 </div>
@@ -35,7 +49,7 @@ brand identity, as well as the overall usability of the website.</p>
 
 </div>
 
-
+</div>
 </div>
 
 </div>
@@ -68,7 +82,7 @@ to find/get access to this information.</p>
 
 <h2>Solution</h2>
 <p>To do this going forward I will redesign the websites information architecture that reflects the 
-organizations goals. I will also gather user feedback to make sure the improvements made has in 
+organisations goals. I will also gather user feedback to make sure the improvements made has in 
 impact on the user and overall improvement of the website.</p>
 </div>
 
@@ -98,7 +112,7 @@ after work on friday evenings.
 
     </div>
     <div class="persona-caption">
-        <h3>Alec is looking to partnership with eco trust </h3>
+        <h3>Andrew is looking to partnership with eco trust </h3>
     </div>
 
     <div class="eco-persona-card">
@@ -226,7 +240,7 @@ better user flow and confirmation page added so they user knows it was successfu
 <router-link to='/'><h3>View more projects</h3></router-link>
 </div>
 
-</div>
+
 
 
 
@@ -402,6 +416,9 @@ text-align: center;
 .eco-userflow {
     padding: 3%;
 }
+.eco-persona {
+    padding: 3%;
+}
 .eco-information img {
     padding: 5%;
 }
@@ -445,18 +462,47 @@ text-align: center;
   margin-top: 0%;
   margin-bottom: 0%;
 }
-.tourism-link {
+.eco-link {
     background-color: #2a3f29;
     padding: 3%;
     color: white;
 }
-.tourism-web-link a {
+.eco-web-link a {
     color: white;
     font-size: 20px;
     text-decoration: underline;
 
 }
+.eco-web-link {
+    padding: 3%;
+    width: 100%;
+}
+.eco-web-link h2 {
+font-size: 20px;
+padding-top: 2%;
+padding-bottom: 2%;
+margin: 0;
+}
+.eco-link img {
+    margin: 0%;
+}
+.eco-link-image img {
+    width: 100%;
+    height: 100%;
+}
 
+.eco-link {
+  background-color: #2a3f29;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+}
+a:hover {
+  color: rgb(169, 169, 169);
+}
 @media (max-width: 1024px)  {
     .eco-hifi img{
     width: 45em;
@@ -474,6 +520,21 @@ font-size: 20px;
 }
 .eco-hifi img {
     width: 40em;
+}
+.eco-brief h1 {
+    font-size: 26px;
+}
+.eco-brief h2 {
+    font-size: 20px;
+}
+.eco-brief p {
+    font-size: 16px;
+}
+.eco-brief{
+    padding: 0%;
+}
+.eco-brief-flex {
+    gap: 2em;
 }
 }
 @media (max-width: 425px)  {
@@ -493,19 +554,45 @@ h3 {
     .eco-landing-flex {
         flex-direction: column;
     }
+    .eco-brief-flex {
+flex-direction: column;
+gap: 0em;
+}
+.eco-web-link h2 {
+font-size: 18px;
+}
+.eco-link {
+    flex-direction: column;
+}
+.eco-brief-flex img {
+    display: none;
+}
     .eco-persona-card {
         flex-direction: column;
     }
+    .persona-caption {
+        margin-bottom: 5%;
+    }
     .eco-process {
         width: 100%;
-        padding: 0%;
+        padding: 3%;
     }
     .current-website {
         flex-direction: column;
         align-items: center;
     }
+    .eco-persona-card img {
+        padding: 3%;
+    }
     .current-website img {
         width: 16em;
+    }
+    .pns {
+        margin: 8%;
+        padding: 0%;
+    }
+    .eco-user-journey {
+       margin: 8%;
     }
     .eco-styletile img {
     width: 20em;
@@ -519,15 +606,55 @@ h3 {
 .eco-information img {
     width: 16em;
 }
+.current-website img {
+    padding: 5%;
+}
 .persona-caption h3 {
     font-size: 12px;
 }
 h1 {
     font-size: 22px;
+    margin: 0%;
+}
+.eco-information-section {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 .vl h2 {
-    margin: auto;
+    margin-top: 0;
 }
+.eco-lofi {
+    margin-top: 5%;
+margin-bottom: 5%;
+}
+@media (max-width: 325px)  {
+    .eco-web-link h2 {
+        font-size: 16px;
+    }
+    .eco-brief h1 {
+        font-size: 20px;
+    }
+    .eco-web-link a {
+        font-size: 16px;
+    }
+    .current-website img {
+        padding-top: 3%;
+        padding: 0%;
+    }
+    .eco-information img {
+        width: 14em;
+    }
+    .eco-styletile img {
+        width: 14em;
+    }
+    .eco-lofi img {
+        width: 14em;
+    }
+    .eco-hifi img {
+        width: 14em;
+    }
+}
+
 }
 
 </style>
