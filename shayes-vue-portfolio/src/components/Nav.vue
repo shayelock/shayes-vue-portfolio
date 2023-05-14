@@ -81,11 +81,18 @@ a:hover {
   }
   .nav-flex h1 {
     font-weight: bold;
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .nav-flex h2 {
     font-size: 10px;
+  }
+  .nav-flex {
+    gap: 0%;
+    width: 100%;
+    position: relative;
+    justify-content: space-around;
+    padding: 0;
   }
 }
 

@@ -508,7 +508,7 @@ gap: 0;
     padding-top: 1%;
 }
 .hornby-landing {
-    padding-top: 5em;
+    padding-top: 1em;
 }
 .hornby-landing img {
     width: 15em;

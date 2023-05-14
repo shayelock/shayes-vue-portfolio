@@ -252,62 +252,15 @@ Another user mentioned that they would like to receive a message if nothing resu
 
 <div class="hifi">
     <h1>Hi-Fi Wireframes</h1>
-    <div class="hifi-flex">
+
         <div class="hifi-card">
-            <p>Landing</p>
-            <img src="../assets/images/tourism/hifi1.png">
+            <img src="../assets/images/tourism/beforeafter.png">
         </div>
-        <div class="hifi-card">
-            <p>Filtering</p>
-            <img src="../assets/images/tourism/hifi2.png">
-        </div>
-    </div>
-    <div class="hifi-flex">
-        <div class="hifi-card">
-            <p>Card Display</p>
-            <img src="../assets/images/tourism/hifi3.png">
-        </div>
-        <div class="hifi-card">
-            <p>Filtering Error</p>
-            <img src="../assets/images/tourism/hifi4.png">
-        </div>
-    </div>
+
+
 </div>
 
-<div class="responsive-hifi">
-    <h1>Responsive Hi-Fi</h1>
-    <div class="responsive-flex">
 
-    <div class="r-flex">
-      
-    <div class="responsive">
-    <p>Landing</p>
-    <img src="../assets/images/tourism/hifi-r-1.png">
-    </div>
-    <div class="responsive">
-    <p>Filtering</p>
-    <img src="../assets/images/tourism/hifi-r-2.png">
-    </div>
-    </div>
-
-    <div class="r-flex">
-
-    <div class="responsive">
-    <p>Card Display</p>
-    <img src="../assets/images/tourism/hifi-r-3.png">
-    </div>
-    <div class="responsive">
-    <p>Filtering Error</p>
-    <img src="../assets/images/tourism/hifi-r-4.png">
-
-
-    <p>Nav</p>
-    <img src="../assets/images/tourism/hifi-r-5.png">
-    </div>
-    </div>
-
-    </div>
-</div>
 
 <div class="link">
 
@@ -473,42 +426,18 @@ justify-content: center;
 }
 .hifi-card {
     padding: 3%;
+    text-align: center;
 }
 .hifi h1 {
     background-color: #f5f5f5;
     padding: 1%;
 }
 .hifi-card img {
-    width: 25em;
-    box-shadow: 1px 1px 5px  rgb(196, 196, 196);
+    width: 50em;
+
 }
-.hifi-flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1em;
-}
-.responsive-flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 3%;
-    gap: 2em;
-}
-.responsive img {
-    width: 10em;
-    box-shadow: 1px 1px 5px  rgb(196, 196, 196);
-}
-.responsive-hifi h1 {
-    background-color: #f5f5f5;
-    padding: 1%;
-}
-.r-flex {
-    display: flex;
-    flex-direction: row;
-    gap: 2em;
-    justify-content: center;
-}
+
+
 
 .link {
     text-align: center;
@@ -593,6 +522,9 @@ padding-bottom: 2%;
 }
 }
 @media (max-width: 768px) {
+    .hifi-card img {
+        width: 35em;
+    }
     .image-flex{
 flex-direction: column;
     }
@@ -654,7 +586,9 @@ flex-direction: column;
 }
 
 @media (max-width: 425px) {
- 
+    .body {
+    padding-top: 1em;
+}
     .client-goals {
         margin-top: 3%;
         margin-bottom: 3%;
@@ -680,7 +614,7 @@ flex-direction: column;
     }
 
 .hifi-card img {
-    width: 14em;
+    width: 15em;
 }
 .responsive img {
     width: 6em;

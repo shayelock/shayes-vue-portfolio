@@ -417,9 +417,7 @@ color:  black;
    .h1-flex h1 {
  font-size: 26px;
 }
-.tradie-landing {
-    padding-top: 4em;
-}
+
 .tradie-landing img {
     width: 15em;
 }

@@ -254,7 +254,7 @@ display: block;
     flex-direction: column;
     align-items: left;
     padding: 0;
-    padding-top: 5em;
+    padding-top: 1em;
   }
   .image img {
     width: 20em;

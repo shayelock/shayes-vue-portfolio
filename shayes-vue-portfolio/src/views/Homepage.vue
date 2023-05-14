@@ -112,25 +112,25 @@
 h1 {
  font-size: 36px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
+  margin: 0%;
   line-height: 1.2;
 }
 h2 {
-    font-size: 26px;
+    font-size: 24px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
+  margin: 0%;
   line-height: 1.2;
 }
 h3 {
     font-size: 20px;
-    margin: 2%;
+    margin: 0%;
   font-family:Arial, Helvetica, sans-serif;
   line-height: 1.2;
 }
 p {
     font-size: 16px;
   font-family:Arial, Helvetica, sans-serif;
-  margin: 2%;
+  margin: 0%;
   line-height: 1.6;
 }
 .landing-section img {
@@ -171,12 +171,8 @@ width: 26em;
 .project-group {
   padding-bottom: 5%;
 }
-.project-text p {
-  margin: 1%;
-}
-.project-text h2 {
-  margin: 1%;
-}
+
+
 .project-text {
   padding: 1%;
 }
