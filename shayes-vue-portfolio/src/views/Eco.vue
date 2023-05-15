@@ -21,7 +21,7 @@
 
         <div class="eco-web-link">
     <h2>Click link to view Enviromental and Conservation website</h2>
-    <a href="    https://shayelock.github.io/eco-website/" target="_blank">https://eco-website.nz</a>
+    <a href="https://shayelock.github.io/eco-website/" target="_blank">https://eco-website.nz</a>
     </div>
 </div>
 
