@@ -5,9 +5,3 @@ createApp(App)
   .use(router)
   .mount("#app");
 
-  var vm = new Vue({
-    el: '#app',
-    data: {
-      openMenu: false,
-    },
-  })
